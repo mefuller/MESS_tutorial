@@ -1,0 +1,1077 @@
+!------------------------------------------------------------------------------!
+!
+! RRKM/ME rate constants obtained from PAPER.
+!
+! MAE = mean/max absolute error, defined as:
+! mean( abs( (theory - fit)/theory ) )
+!
+!------------------------------------------------------------------------------!
+
+
+!------------------------------------------------------------------------------!
+!
+! RRKM/ME rate constants fit to single Arrhenius expression
+!
+!------------------------------------------------------------------------------!
+
+honoh=Net                               8.22E+13       -0.58    26660.0
+  PLOG/1.000E-02    1.81E+25       -4.90    26790.0/                            ! fit btw. 400 and 1500 K with MAE of 2.2%, 4.9%
+  PLOG/1.000E-01    2.98E+24       -4.35    27900.0/                            ! fit btw. 400 and 1650 K with MAE of 3.7%, 12.5%
+  PLOG/3.160E-01    4.02E+23       -3.94    28240.0/                            ! fit btw. 400 and 1750 K with MAE of 4.7%, 17.0%
+  PLOG/1.000E+00    1.87E+22       -3.41    28350.0/                            ! fit btw. 400 and 1850 K with MAE of 6.0%, 21.8%
+  PLOG/3.160E+00    3.65E+20       -2.78    28240.0/                            ! fit btw. 400 and 2000 K with MAE of 7.4%, 26.5%
+  PLOG/1.000E+01    4.11E+18       -2.11    27950.0/                            ! fit btw. 400 and 2200 K with MAE of 8.7%, 30.8%
+  PLOG/3.160E+01    3.79E+16       -1.43    27500.0/                            ! fit btw. 400 and 2450 K with MAE of 9.6%, 34.1%
+  PLOG/1.000E+02    8.22E+13       -0.58    26660.0/                            ! fit btw. 400 and 2500 K with MAE of 10.0%, 33.5%
+
+honoh=honho                             2.32E+11       -0.93    34730.0
+  PLOG/1.000E-02    1.23E+23       -6.90    29360.0/                            ! fit btw. 400 and 1500 K with MAE of 3.0%, 9.1%
+  PLOG/1.000E-01    2.04E+22       -6.13    31100.0/                            ! fit btw. 400 and 1600 K with MAE of 3.5%, 7.0%
+  PLOG/3.160E-01    2.33E+23       -6.14    32720.0/                            ! fit btw. 400 and 1650 K with MAE of 4.1%, 11.1%
+  PLOG/1.000E+00    5.28E+23       -5.96    33950.0/                            ! fit btw. 400 and 1700 K with MAE of 4.9%, 11.6%
+  PLOG/3.160E+00    9.90E+19       -4.56    33560.0/                            ! fit btw. 400 and 1750 K with MAE of 6.6%, 16.6%
+  PLOG/1.000E+01    6.70E+13       -2.38    32440.0/                            ! fit btw. 400 and 1800 K with MAE of 7.6%, 19.3%
+  PLOG/3.160E+01    1.53E+10       -0.94    32570.0/                            ! fit btw. 400 and 1900 K with MAE of 7.3%, 16.6%
+  PLOG/1.000E+02    2.32E+11       -0.93    34730.0/                            ! fit btw. 400 and 1950 K with MAE of 7.4%, 17.8%
+
+honoh=hno2                              8.03E+17       -2.55    53710.0
+  PLOG/1.000E-02    2.72E-34        9.53    26670.0/                            ! fit btw. 400 and 1500 K with MAE of 111.3%, 980.0%
+  PLOG/1.000E-01    5.21E-40       12.34    32660.0/                            ! fit btw. 500 and 1650 K with MAE of 63.6%, 380.4%
+  PLOG/3.160E-01    4.20E-19        6.46    40840.0/                            ! fit btw. 400 and 1750 K with MAE of 28.9%, 130.3%
+  PLOG/1.000E+00    1.31E+03        0.46    49160.0/                            ! fit btw. 400 and 1850 K with MAE of 3.5%, 13.4%
+  PLOG/3.160E+00    7.76E+09       -1.22    49840.0/                            ! fit btw. 400 and 2000 K with MAE of 3.1%, 8.4%
+  PLOG/1.000E+01    8.15E+14       -2.34    51160.0/                            ! fit btw. 400 and 2200 K with MAE of 3.4%, 9.3%
+  PLOG/3.160E+01    3.27E+17       -2.74    52610.0/                            ! fit btw. 400 and 2450 K with MAE of 3.4%, 8.9%
+  PLOG/1.000E+02    8.03E+17       -2.55    53710.0/                            ! fit btw. 400 and 2500 K with MAE of 4.7%, 19.6%
+
+honoh=thono                             3.49E+21       -2.72    45830.0
+  PLOG/1.000E-02    5.19E-10        4.36    35760.0/                            ! fit btw. 400 and 1500 K with MAE of 5.3%, 12.6%
+  PLOG/1.000E-01    1.14E+01        1.69    36370.0/                            ! fit btw. 400 and 1650 K with MAE of 3.6%, 11.0%
+  PLOG/3.160E-01    6.14E+08       -0.33    38480.0/                            ! fit btw. 400 and 1750 K with MAE of 2.8%, 9.1%
+  PLOG/1.000E+00    9.07E+15       -2.14    41020.0/                            ! fit btw. 400 and 1850 K with MAE of 2.8%, 7.6%
+  PLOG/3.160E+00    5.46E+20       -3.23    43180.0/                            ! fit btw. 400 and 2000 K with MAE of 3.1%, 8.0%
+  PLOG/1.000E+01    8.21E+22       -3.57    44720.0/                            ! fit btw. 400 and 2200 K with MAE of 3.4%, 11.6%
+  PLOG/3.160E+01    1.05E+23       -3.35    45630.0/                            ! fit btw. 400 and 2450 K with MAE of 4.1%, 18.3%
+  PLOG/1.000E+02    3.49E+21       -2.72    45830.0/                            ! fit btw. 400 and 2500 K with MAE of 6.5%, 25.3%
+
+honoh=h2o                               2.13E+14       -0.70    26830.0
+  PLOG/1.000E-02    1.81E+25       -4.90    26790.0/                            ! fit btw. 400 and 1500 K with MAE of 2.2%, 4.9%
+  PLOG/1.000E-01    2.98E+24       -4.35    27900.0/                            ! fit btw. 400 and 1650 K with MAE of 3.7%, 12.5%
+  PLOG/3.160E-01    4.03E+23       -3.94    28240.0/                            ! fit btw. 400 and 1750 K with MAE of 4.7%, 17.0%
+  PLOG/1.000E+00    1.88E+22       -3.41    28350.0/                            ! fit btw. 400 and 1850 K with MAE of 6.0%, 21.8%
+  PLOG/3.160E+00    3.76E+20       -2.79    28250.0/                            ! fit btw. 400 and 2000 K with MAE of 7.4%, 26.6%
+  PLOG/1.000E+01    4.69E+18       -2.13    27970.0/                            ! fit btw. 400 and 2200 K with MAE of 8.8%, 30.9%
+  PLOG/3.160E+01    5.82E+16       -1.48    27580.0/                            ! fit btw. 400 and 2450 K with MAE of 9.8%, 34.6%
+  PLOG/1.000E+02    2.13E+14       -0.70    26830.0/                            ! fit btw. 400 and 2500 K with MAE of 10.5%, 34.5%
+
+honoh=hno                               4.05E+20       -2.59    44460.0
+  PLOG/1.000E-02    1.14E+02        0.73    34960.0/                            ! fit btw. 500 and 1500 K with MAE of 11.2%, 45.5%
+  PLOG/1.000E-01    4.77E+04        0.37    32910.0/                            ! fit btw. 400 and 1650 K with MAE of 6.6%, 18.3%
+  PLOG/3.160E-01    1.02E+08       -0.31    34070.0/                            ! fit btw. 400 and 1750 K with MAE of 3.4%, 8.4%
+  PLOG/1.000E+00    6.91E+12       -1.40    36730.0/                            ! fit btw. 400 and 1850 K with MAE of 2.0%, 4.5%
+  PLOG/3.160E+00    3.35E+17       -2.44    39770.0/                            ! fit btw. 400 and 2000 K with MAE of 3.7%, 14.5%
+  PLOG/1.000E+01    2.78E+20       -2.99    42180.0/                            ! fit btw. 400 and 2200 K with MAE of 4.9%, 21.2%
+  PLOG/3.160E+01    2.26E+21       -3.01    43730.0/                            ! fit btw. 400 and 2450 K with MAE of 6.2%, 27.2%
+  PLOG/1.000E+02    4.05E+20       -2.59    44460.0/                            ! fit btw. 400 and 2500 K with MAE of 8.1%, 30.8%
+
+honho=honoh                             1.30E+15       -1.90    34350.0
+  PLOG/1.000E-02    2.36E+21       -6.21    26750.0/                            ! fit btw. 400 and 1500 K with MAE of 2.8%, 8.2%
+  PLOG/1.000E-01    6.31E+20       -5.50    28570.0/                            ! fit btw. 400 and 1600 K with MAE of 3.4%, 8.2%
+  PLOG/3.160E-01    9.83E+21       -5.56    30240.0/                            ! fit btw. 400 and 1650 K with MAE of 4.0%, 12.5%
+  PLOG/1.000E+00    5.70E+22       -5.50    31640.0/                            ! fit btw. 400 and 1700 K with MAE of 4.4%, 14.0%
+  PLOG/3.160E+00    2.53E+20       -4.52    31800.0/                            ! fit btw. 400 and 1750 K with MAE of 4.5%, 12.3%
+  PLOG/1.000E+01    1.65E+16       -2.95    31470.0/                            ! fit btw. 400 and 1800 K with MAE of 3.8%, 12.9%
+  PLOG/3.160E+01    1.44E+14       -1.98    32250.0/                            ! fit btw. 400 and 1900 K with MAE of 4.9%, 20.7%
+  PLOG/1.000E+02    1.30E+15       -1.90    34350.0/                            ! fit btw. 400 and 1950 K with MAE of 8.4%, 31.0%
+
+honho=Net                               4.94E+25       -3.73    32740.0
+  PLOG/1.000E-02    5.81E+25       -5.04    27090.0/                            ! fit btw. 400 and 1500 K with MAE of 2.2%, 5.1%
+  PLOG/1.000E-01    2.27E+26       -4.89    28530.0/                            ! fit btw. 400 and 1600 K with MAE of 2.7%, 8.0%
+  PLOG/3.160E-01    1.74E+26       -4.70    29120.0/                            ! fit btw. 400 and 1650 K with MAE of 3.0%, 10.1%
+  PLOG/1.000E+00    5.37E+25       -4.39    29590.0/                            ! fit btw. 400 and 1700 K with MAE of 3.7%, 13.4%
+  PLOG/3.160E+00    1.57E+25       -4.07    30130.0/                            ! fit btw. 400 and 1750 K with MAE of 5.1%, 18.3%
+  PLOG/1.000E+01    1.32E+25       -3.88    30910.0/                            ! fit btw. 400 and 1800 K with MAE of 7.0%, 24.4%
+  PLOG/3.160E+01    3.51E+25       -3.84    31900.0/                            ! fit btw. 400 and 1900 K with MAE of 8.4%, 30.5%
+  PLOG/1.000E+02    4.94E+25       -3.73    32740.0/                            ! fit btw. 400 and 1950 K with MAE of 9.7%, 35.5%
+
+honho=hno2                              1.60E+10       -0.61    46370.0
+  PLOG/1.000E-02    1.19E-80       24.31    12730.0/                            ! fit btw. 400 and 1500 K with MAE of 91.8%, 958.3%
+  PLOG/1.000E-01    1.94E-40       12.95    32310.0/                            ! fit btw. 400 and 1600 K with MAE of 69.3%, 584.5%
+  PLOG/3.160E-01    4.14E-07        3.42    48870.0/                            ! fit btw. 450 and 1650 K with MAE of 18.1%, 97.5%
+  PLOG/1.000E+00    2.45E-01        1.89    50110.0/                            ! fit btw. 400 and 1700 K with MAE of 7.6%, 23.3%
+  PLOG/3.160E+00    1.21E+00        1.83    48520.0/                            ! fit btw. 400 and 1750 K with MAE of 7.8%, 24.9%
+  PLOG/1.000E+01    9.59E+01        1.42    47280.0/                            ! fit btw. 400 and 1800 K with MAE of 6.9%, 22.4%
+  PLOG/3.160E+01    1.47E+05        0.65    46350.0/                            ! fit btw. 400 and 1900 K with MAE of 5.4%, 19.7%
+  PLOG/1.000E+02    1.60E+10       -0.61    46370.0/                            ! fit btw. 400 and 1950 K with MAE of 3.7%, 14.4%
+
+honho=thono                             3.45E+24       -4.13    39570.0
+  PLOG/1.000E-02    8.73E+04        0.13    38440.0/                            ! fit btw. 400 and 1500 K with MAE of 4.4%, 14.0%
+  PLOG/1.000E-01    2.28E+08       -0.56    36660.0/                            ! fit btw. 400 and 1600 K with MAE of 3.8%, 12.8%
+  PLOG/3.160E-01    1.19E+11       -1.19    36420.0/                            ! fit btw. 400 and 1650 K with MAE of 3.2%, 10.7%
+  PLOG/1.000E+00    1.39E+14       -1.91    36660.0/                            ! fit btw. 400 and 1700 K with MAE of 2.6%, 7.8%
+  PLOG/3.160E+00    1.78E+17       -2.64    37170.0/                            ! fit btw. 400 and 1750 K with MAE of 2.4%, 4.9%
+  PLOG/1.000E+01    1.82E+20       -3.33    37870.0/                            ! fit btw. 400 and 1800 K with MAE of 2.4%, 6.5%
+  PLOG/3.160E+01    4.83E+22       -3.82    38640.0/                            ! fit btw. 400 and 1900 K with MAE of 2.8%, 8.1%
+  PLOG/1.000E+02    3.45E+24       -4.13    39570.0/                            ! fit btw. 400 and 1950 K with MAE of 2.7%, 7.3%
+
+honho=h2o                               7.91E+25       -4.22    30720.0
+  PLOG/1.000E-02    1.10E+26       -5.13    27190.0/                            ! fit btw. 400 and 1500 K with MAE of 2.2%, 5.5%
+  PLOG/1.000E-01    3.00E+27       -5.24    28920.0/                            ! fit btw. 400 and 1600 K with MAE of 2.8%, 9.3%
+  PLOG/3.160E-01    2.01E+28       -5.36    29780.0/                            ! fit btw. 400 and 1650 K with MAE of 3.3%, 11.7%
+  PLOG/1.000E+00    8.43E+28       -5.43    30480.0/                            ! fit btw. 400 and 1700 K with MAE of 3.8%, 14.1%
+  PLOG/3.160E+00    1.07E+29       -5.38    30890.0/                            ! fit btw. 400 and 1750 K with MAE of 4.4%, 16.3%
+  PLOG/1.000E+01    3.24E+28       -5.15    31030.0/                            ! fit btw. 400 and 1800 K with MAE of 4.9%, 18.4%
+  PLOG/3.160E+01    2.97E+27       -4.77    30970.0/                            ! fit btw. 400 and 1900 K with MAE of 5.4%, 20.6%
+  PLOG/1.000E+02    7.91E+25       -4.22    30720.0/                            ! fit btw. 400 and 1950 K with MAE of 6.1%, 22.9%
+
+honho=hno                               1.02E+33       -5.81    37870.0
+  PLOG/1.000E-02    2.63E+25       -4.90    38280.0/                            ! fit btw. 400 and 1500 K with MAE of 1.8%, 4.4%
+  PLOG/1.000E-01    1.11E+28       -5.35    36430.0/                            ! fit btw. 400 and 1600 K with MAE of 2.0%, 5.2%
+  PLOG/3.160E-01    8.70E+29       -5.73    36200.0/                            ! fit btw. 400 and 1650 K with MAE of 2.0%, 5.4%
+  PLOG/1.000E+00    3.97E+31       -6.04    36410.0/                            ! fit btw. 400 and 1700 K with MAE of 2.1%, 5.6%
+  PLOG/3.160E+00    4.92E+32       -6.19    36780.0/                            ! fit btw. 400 and 1750 K with MAE of 2.1%, 5.5%
+  PLOG/1.000E+01    1.84E+33       -6.19    37190.0/                            ! fit btw. 400 and 1800 K with MAE of 2.2%, 5.3%
+  PLOG/3.160E+01    1.90E+33       -6.04    37520.0/                            ! fit btw. 400 and 1900 K with MAE of 2.5%, 5.9%
+  PLOG/1.000E+02    1.02E+33       -5.81    37870.0/                            ! fit btw. 400 and 1950 K with MAE of 2.5%, 6.1%
+
+hno2=honoh                              2.18E+16       -1.75    10490.0
+  PLOG/1.000E-02    1.92E-35       10.19    -16490.0/                           ! fit btw. 400 and 1500 K with MAE of 107.3%, 944.7%
+  PLOG/1.000E-01    2.24E-40       12.77    -10020.0/                           ! fit btw. 500 and 1650 K with MAE of 66.5%, 392.0%
+  PLOG/3.160E-01    2.82E-20        7.13    -2275.0/                            ! fit btw. 400 and 1750 K with MAE of 31.3%, 138.0%
+  PLOG/1.000E+00    6.85E+01        1.17    6009.0/                             ! fit btw. 400 and 1850 K with MAE of 4.1%, 18.1%
+  PLOG/3.160E+00    4.24E+08       -0.52    6710.0/                             ! fit btw. 400 and 2000 K with MAE of 1.9%, 8.4%
+  PLOG/1.000E+01    5.08E+13       -1.65    8076.0/                             ! fit btw. 400 and 2200 K with MAE of 2.1%, 9.5%
+  PLOG/3.160E+01    2.33E+16       -2.07    9573.0/                             ! fit btw. 400 and 2450 K with MAE of 3.6%, 16.2%
+  PLOG/1.000E+02    2.18E+16       -1.75    10490.0/                            ! fit btw. 400 and 2500 K with MAE of 6.9%, 24.9%
+
+hno2=honho                              1.55E+10       -0.46    5659.0
+  PLOG/1.000E-02    6.25E-80       24.22    -27760.0/                           ! fit btw. 400 and 1500 K with MAE of 95.2%, 988.0%
+  PLOG/1.000E-01    4.79E-40       12.98    -8281.0/                            ! fit btw. 400 and 1600 K with MAE of 72.0%, 597.6%
+  PLOG/3.160E-01    1.49E-06        3.40    8391.0/                             ! fit btw. 450 and 1650 K with MAE of 19.4%, 95.9%
+  PLOG/1.000E+00    3.65E-01        1.98    9442.0/                             ! fit btw. 400 and 1700 K with MAE of 9.2%, 24.0%
+  PLOG/3.160E+00    1.56E+00        1.94    7829.0/                             ! fit btw. 400 and 1750 K with MAE of 9.3%, 27.4%
+  PLOG/1.000E+01    1.10E+02        1.55    6576.0/                             ! fit btw. 400 and 1800 K with MAE of 8.5%, 25.1%
+  PLOG/3.160E+01    2.03E+05        0.76    5688.0/                             ! fit btw. 400 and 1900 K with MAE of 7.1%, 23.0%
+  PLOG/1.000E+02    1.55E+10       -0.46    5659.0/                             ! fit btw. 400 and 1950 K with MAE of 4.9%, 17.6%
+
+hno2=Net                                4.45E+07        1.84    5275.0
+  PLOG/1.000E-02    4.45E+07        1.84    5275.0/                             ! fit btw. 400 and 2500 K with MAE of 1.3%, 6.0%
+  PLOG/1.000E-01    4.45E+07        1.84    5275.0/                             ! fit btw. 400 and 2500 K with MAE of 1.3%, 6.0%
+  PLOG/3.160E-01    4.45E+07        1.84    5275.0/                             ! fit btw. 400 and 2500 K with MAE of 1.3%, 6.0%
+  PLOG/1.000E+00    4.45E+07        1.84    5275.0/                             ! fit btw. 400 and 2500 K with MAE of 1.3%, 6.0%
+  PLOG/3.160E+00    4.45E+07        1.84    5275.0/                             ! fit btw. 400 and 2500 K with MAE of 1.3%, 6.0%
+  PLOG/1.000E+01    4.45E+07        1.84    5275.0/                             ! fit btw. 400 and 2500 K with MAE of 1.3%, 6.0%
+  PLOG/3.160E+01    4.45E+07        1.84    5275.0/                             ! fit btw. 400 and 2500 K with MAE of 1.3%, 6.0%
+  PLOG/1.000E+02    4.45E+07        1.84    5275.0/                             ! fit btw. 400 and 2500 K with MAE of 1.3%, 6.0%
+
+hno2=thono                              2.17E-01        4.06    4525.0
+  PLOG/1.000E-02    2.19E-01        4.05    4502.0/                             ! fit btw. 400 and 2500 K with MAE of 2.6%, 7.4%
+  PLOG/1.000E-01    2.19E-01        4.05    4502.0/                             ! fit btw. 400 and 2500 K with MAE of 2.6%, 7.4%
+  PLOG/3.160E-01    2.19E-01        4.05    4502.0/                             ! fit btw. 400 and 2500 K with MAE of 2.6%, 7.4%
+  PLOG/1.000E+00    2.19E-01        4.05    4502.0/                             ! fit btw. 400 and 2500 K with MAE of 2.6%, 7.4%
+  PLOG/3.160E+00    2.19E-01        4.05    4502.0/                             ! fit btw. 400 and 2500 K with MAE of 2.6%, 7.4%
+  PLOG/1.000E+01    2.19E-01        4.05    4504.0/                             ! fit btw. 400 and 2500 K with MAE of 2.6%, 7.5%
+  PLOG/3.160E+01    2.18E-01        4.06    4509.0/                             ! fit btw. 400 and 2500 K with MAE of 2.6%, 7.5%
+  PLOG/1.000E+02    2.17E-01        4.06    4525.0/                             ! fit btw. 400 and 2500 K with MAE of 2.6%, 7.4%
+
+hno2=h2o                                7.05E+03        2.58    4579.0
+  PLOG/1.000E-02    8.57E+03        2.56    4605.0/                             ! fit btw. 400 and 2500 K with MAE of 1.0%, 4.2%
+  PLOG/1.000E-01    8.57E+03        2.56    4605.0/                             ! fit btw. 400 and 2500 K with MAE of 1.0%, 4.2%
+  PLOG/3.160E-01    8.57E+03        2.56    4605.0/                             ! fit btw. 400 and 2500 K with MAE of 1.0%, 4.2%
+  PLOG/1.000E+00    8.57E+03        2.56    4605.0/                             ! fit btw. 400 and 2500 K with MAE of 1.0%, 4.2%
+  PLOG/3.160E+00    8.59E+03        2.56    4606.0/                             ! fit btw. 400 and 2500 K with MAE of 1.0%, 4.2%
+  PLOG/1.000E+01    8.63E+03        2.56    4608.0/                             ! fit btw. 400 and 2500 K with MAE of 1.1%, 4.2%
+  PLOG/3.160E+01    8.50E+03        2.56    4611.0/                             ! fit btw. 400 and 2500 K with MAE of 1.1%, 4.3%
+  PLOG/1.000E+02    7.05E+03        2.58    4579.0/                             ! fit btw. 400 and 2500 K with MAE of 1.2%, 4.5%
+
+hno2=hno                                5.25E+08        1.50    5687.0
+  PLOG/1.000E-02    5.24E+08        1.51    5687.0/                             ! fit btw. 400 and 2500 K with MAE of 2.4%, 8.7%
+  PLOG/1.000E-01    5.24E+08        1.51    5687.0/                             ! fit btw. 400 and 2500 K with MAE of 2.4%, 8.7%
+  PLOG/3.160E-01    5.24E+08        1.51    5687.0/                             ! fit btw. 400 and 2500 K with MAE of 2.4%, 8.7%
+  PLOG/1.000E+00    5.24E+08        1.51    5687.0/                             ! fit btw. 400 and 2500 K with MAE of 2.4%, 8.7%
+  PLOG/3.160E+00    5.24E+08        1.51    5687.0/                             ! fit btw. 400 and 2500 K with MAE of 2.4%, 8.7%
+  PLOG/1.000E+01    5.24E+08        1.51    5687.0/                             ! fit btw. 400 and 2500 K with MAE of 2.4%, 8.7%
+  PLOG/3.160E+01    5.24E+08        1.51    5687.0/                             ! fit btw. 400 and 2500 K with MAE of 2.4%, 8.7%
+  PLOG/1.000E+02    5.25E+08        1.50    5687.0/                             ! fit btw. 400 and 2500 K with MAE of 2.4%, 8.7%
+
+thono=honoh                             1.56E+20       -2.38    10960.0
+  PLOG/1.000E-02    2.41E-10        4.38    1228.0/                             ! fit btw. 400 and 1500 K with MAE of 6.9%, 14.8%
+  PLOG/1.000E-01    4.14E+00        1.75    1820.0/                             ! fit btw. 400 and 1650 K with MAE of 5.2%, 13.6%
+  PLOG/3.160E-01    1.93E+08       -0.25    3915.0/                             ! fit btw. 400 and 1750 K with MAE of 3.7%, 12.1%
+  PLOG/1.000E+00    2.02E+15       -2.01    6408.0/                             ! fit btw. 400 and 1850 K with MAE of 2.7%, 10.7%
+  PLOG/3.160E+00    9.94E+19       -3.07    8543.0/                             ! fit btw. 400 and 2000 K with MAE of 2.5%, 11.2%
+  PLOG/1.000E+01    1.26E+22       -3.39    10070.0/                            ! fit btw. 400 and 2200 K with MAE of 3.3%, 15.1%
+  PLOG/3.160E+01    1.32E+22       -3.14    10960.0/                            ! fit btw. 400 and 2450 K with MAE of 5.2%, 21.8%
+  PLOG/1.000E+02    1.56E+20       -2.38    10960.0/                            ! fit btw. 400 and 2500 K with MAE of 7.7%, 27.2%
+
+thono=honho                             1.21E+25       -4.53    7362.0
+  PLOG/1.000E-02    2.14E+06       -0.54    6518.0/                             ! fit btw. 400 and 1500 K with MAE of 5.2%, 15.5%
+  PLOG/1.000E-01    3.64E+09       -1.17    4683.0/                             ! fit btw. 400 and 1600 K with MAE of 4.4%, 14.4%
+  PLOG/3.160E-01    1.36E+12       -1.75    4391.0/                             ! fit btw. 400 and 1650 K with MAE of 3.6%, 12.2%
+  PLOG/1.000E+00    1.14E+15       -2.43    4577.0/                             ! fit btw. 400 and 1700 K with MAE of 2.5%, 9.3%
+  PLOG/3.160E+00    1.15E+18       -3.13    5056.0/                             ! fit btw. 400 and 1750 K with MAE of 1.7%, 6.2%
+  PLOG/1.000E+01    9.63E+20       -3.79    5726.0/                             ! fit btw. 400 and 1800 K with MAE of 1.4%, 3.9%
+  PLOG/3.160E+01    2.59E+23       -4.28    6504.0/                             ! fit btw. 400 and 1900 K with MAE of 1.5%, 3.1%
+  PLOG/1.000E+02    1.21E+25       -4.53    7362.0/                             ! fit btw. 400 and 1950 K with MAE of 1.5%, 4.4%
+
+thono=hno2                              3.58E-01        3.60    12880.0
+  PLOG/1.000E-02    3.62E-01        3.60    12860.0/                            ! fit btw. 400 and 2500 K with MAE of 1.4%, 3.6%
+  PLOG/1.000E-01    3.62E-01        3.60    12860.0/                            ! fit btw. 400 and 2500 K with MAE of 1.4%, 3.6%
+  PLOG/3.160E-01    3.62E-01        3.60    12860.0/                            ! fit btw. 400 and 2500 K with MAE of 1.4%, 3.6%
+  PLOG/1.000E+00    3.62E-01        3.60    12860.0/                            ! fit btw. 400 and 2500 K with MAE of 1.4%, 3.6%
+  PLOG/3.160E+00    3.62E-01        3.60    12860.0/                            ! fit btw. 400 and 2500 K with MAE of 1.4%, 3.6%
+  PLOG/1.000E+01    3.62E-01        3.60    12860.0/                            ! fit btw. 400 and 2500 K with MAE of 1.4%, 3.6%
+  PLOG/3.160E+01    3.60E-01        3.60    12860.0/                            ! fit btw. 400 and 2500 K with MAE of 1.4%, 3.7%
+  PLOG/1.000E+02    3.58E-01        3.60    12880.0/                            ! fit btw. 400 and 2500 K with MAE of 1.4%, 3.7%
+
+thono=Net                               1.97E+08        1.50    4070.0
+  PLOG/1.000E-02    1.96E+08        1.50    4064.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.3%
+  PLOG/1.000E-01    1.96E+08        1.50    4064.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.3%
+  PLOG/3.160E-01    1.96E+08        1.50    4064.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.3%
+  PLOG/1.000E+00    1.96E+08        1.50    4064.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.3%
+  PLOG/3.160E+00    1.96E+08        1.50    4064.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.3%
+  PLOG/1.000E+01    1.97E+08        1.50    4066.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.4%
+  PLOG/3.160E+01    1.98E+08        1.50    4068.0/                             ! fit btw. 400 and 2500 K with MAE of 1.6%, 4.4%
+  PLOG/1.000E+02    1.97E+08        1.50    4070.0/                             ! fit btw. 400 and 2500 K with MAE of 1.6%, 4.5%
+
+thono=h2o                               4.57E+03        2.70    4072.0
+  PLOG/1.000E-02    7.44E+06        1.77    5168.0/                             ! fit btw. 400 and 2500 K with MAE of 5.3%, 18.4%
+  PLOG/1.000E-01    7.42E+06        1.77    5167.0/                             ! fit btw. 400 and 2500 K with MAE of 5.3%, 18.4%
+  PLOG/3.160E-01    7.38E+06        1.77    5165.0/                             ! fit btw. 400 and 2500 K with MAE of 5.3%, 18.5%
+  PLOG/1.000E+00    7.44E+06        1.77    5170.0/                             ! fit btw. 400 and 2500 K with MAE of 5.3%, 18.5%
+  PLOG/3.160E+00    7.75E+06        1.77    5210.0/                             ! fit btw. 400 and 2500 K with MAE of 5.4%, 19.2%
+  PLOG/1.000E+01    5.19E+06        1.82    5232.0/                             ! fit btw. 400 and 2500 K with MAE of 6.3%, 22.2%
+  PLOG/3.160E+01    5.27E+05        2.11    4911.0/                             ! fit btw. 400 and 2500 K with MAE of 8.6%, 26.4%
+  PLOG/1.000E+02    4.57E+03        2.70    4072.0/                             ! fit btw. 400 and 2500 K with MAE of 10.4%, 24.8%
+
+thono=hno                               1.69E+09        1.20    4534.0
+  PLOG/1.000E-02    5.36E+08        1.33    4111.0/                             ! fit btw. 400 and 2500 K with MAE of 1.0%, 2.8%
+  PLOG/1.000E-01    5.36E+08        1.33    4111.0/                             ! fit btw. 400 and 2500 K with MAE of 1.0%, 2.8%
+  PLOG/3.160E-01    5.37E+08        1.33    4111.0/                             ! fit btw. 400 and 2500 K with MAE of 1.0%, 2.8%
+  PLOG/1.000E+00    5.38E+08        1.33    4112.0/                             ! fit btw. 400 and 2500 K with MAE of 1.0%, 2.8%
+  PLOG/3.160E+00    5.43E+08        1.33    4116.0/                             ! fit btw. 400 and 2500 K with MAE of 1.0%, 2.8%
+  PLOG/1.000E+01    5.75E+08        1.33    4135.0/                             ! fit btw. 400 and 2500 K with MAE of 0.9%, 2.6%
+  PLOG/3.160E+01    7.43E+08        1.29    4227.0/                             ! fit btw. 400 and 2500 K with MAE of 0.8%, 2.2%
+  PLOG/1.000E+02    1.69E+09        1.20    4534.0/                             ! fit btw. 400 and 2500 K with MAE of 0.5%, 1.5%
+
+h2o=honoh                               1.78E+06        1.46    58440.0
+  PLOG/1.000E-02    1.22E+18       -3.03    58680.0/                            ! fit btw. 400 and 1500 K with MAE of 2.5%, 6.4%
+  PLOG/1.000E-01    1.49E+17       -2.43    59760.0/                            ! fit btw. 400 and 1650 K with MAE of 4.6%, 14.3%
+  PLOG/3.160E-01    1.72E+16       -2.00    60090.0/                            ! fit btw. 400 and 1750 K with MAE of 5.8%, 18.9%
+  PLOG/1.000E+00    5.73E+14       -1.42    60150.0/                            ! fit btw. 400 and 1850 K with MAE of 7.4%, 23.6%
+  PLOG/3.160E+00    9.72E+12       -0.78    60030.0/                            ! fit btw. 400 and 2000 K with MAE of 9.0%, 28.5%
+  PLOG/1.000E+01    1.12E+11       -0.10    59760.0/                            ! fit btw. 400 and 2200 K with MAE of 10.7%, 33.2%
+  PLOG/3.160E+01    1.31E+09        0.55    59380.0/                            ! fit btw. 400 and 2450 K with MAE of 12.1%, 37.1%
+  PLOG/1.000E+02    1.78E+06        1.46    58440.0/                            ! fit btw. 400 and 2500 K with MAE of 12.2%, 35.9%
+
+h2o=honho                               3.87E+19       -2.77    64930.0
+  PLOG/1.000E-02    3.92E+20       -3.95    61700.0/                            ! fit btw. 400 and 1500 K with MAE of 2.0%, 6.3%
+  PLOG/1.000E-01    6.66E+21       -4.00    63360.0/                            ! fit btw. 400 and 1600 K with MAE of 3.0%, 10.0%
+  PLOG/3.160E-01    3.13E+22       -4.06    64170.0/                            ! fit btw. 400 and 1650 K with MAE of 3.6%, 12.3%
+  PLOG/1.000E+00    9.41E+22       -4.09    64810.0/                            ! fit btw. 400 and 1700 K with MAE of 4.2%, 14.6%
+  PLOG/3.160E+00    9.37E+22       -4.01    65190.0/                            ! fit btw. 400 and 1750 K with MAE of 4.8%, 16.7%
+  PLOG/1.000E+01    2.33E+22       -3.75    65300.0/                            ! fit btw. 400 and 1800 K with MAE of 5.4%, 18.7%
+  PLOG/3.160E+01    2.19E+21       -3.37    65250.0/                            ! fit btw. 400 and 1900 K with MAE of 6.0%, 21.2%
+  PLOG/1.000E+02    3.87E+19       -2.77    64930.0/                            ! fit btw. 400 and 1950 K with MAE of 6.7%, 23.1%
+
+h2o=hno2                                2.17E-03        3.95    79410.0
+  PLOG/1.000E-02    2.64E-03        3.92    79440.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 1.3%
+  PLOG/1.000E-01    2.64E-03        3.92    79440.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 1.3%
+  PLOG/3.160E-01    2.64E-03        3.92    79440.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 1.3%
+  PLOG/1.000E+00    2.64E-03        3.92    79440.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 1.3%
+  PLOG/3.160E+00    2.64E-03        3.92    79440.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 1.3%
+  PLOG/1.000E+01    2.66E-03        3.92    79440.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 1.3%
+  PLOG/3.160E+01    2.62E-03        3.92    79440.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 1.3%
+  PLOG/1.000E+02    2.17E-03        3.95    79410.0/                            ! fit btw. 400 and 2500 K with MAE of 0.5%, 1.6%
+
+h2o=thono                               8.52E-04        4.52    70550.0
+  PLOG/1.000E-02    1.39E+00        3.59    71650.0/                            ! fit btw. 400 and 2500 K with MAE of 5.5%, 18.1%
+  PLOG/1.000E-01    1.38E+00        3.59    71640.0/                            ! fit btw. 400 and 2500 K with MAE of 5.5%, 18.2%
+  PLOG/3.160E-01    1.38E+00        3.59    71640.0/                            ! fit btw. 400 and 2500 K with MAE of 5.5%, 18.2%
+  PLOG/1.000E+00    1.39E+00        3.59    71650.0/                            ! fit btw. 400 and 2500 K with MAE of 5.6%, 18.2%
+  PLOG/3.160E+00    1.45E+00        3.59    71690.0/                            ! fit btw. 400 and 2500 K with MAE of 5.7%, 18.9%
+  PLOG/1.000E+01    9.67E-01        3.64    71710.0/                            ! fit btw. 400 and 2500 K with MAE of 6.6%, 22.0%
+  PLOG/3.160E+01    9.82E-02        3.93    71390.0/                            ! fit btw. 400 and 2500 K with MAE of 8.9%, 26.2%
+  PLOG/1.000E+02    8.52E-04        4.52    70550.0/                            ! fit btw. 400 and 2500 K with MAE of 10.7%, 24.5%
+
+h2o=Net                                 3.71E+00        3.25    56380.0
+  PLOG/1.000E-02    2.74E-11        6.39    51300.0/                            ! fit btw. 400 and 2500 K with MAE of 15.4%, 43.9%
+  PLOG/1.000E-01    2.78E-09        5.80    51730.0/                            ! fit btw. 400 and 2500 K with MAE of 5.4%, 11.3%
+  PLOG/3.160E-01    2.35E-07        5.24    52500.0/                            ! fit btw. 400 and 2500 K with MAE of 1.5%, 3.0%
+  PLOG/1.000E+00    4.76E-05        4.58    53550.0/                            ! fit btw. 400 and 2500 K with MAE of 2.7%, 5.9%
+  PLOG/3.160E+00    9.54E-03        3.93    54690.0/                            ! fit btw. 400 and 2500 K with MAE of 3.7%, 7.5%
+  PLOG/1.000E+01    6.52E-01        3.41    55690.0/                            ! fit btw. 400 and 2500 K with MAE of 3.6%, 12.7%
+  PLOG/3.160E+01    3.56E+00        3.23    56210.0/                            ! fit btw. 400 and 2500 K with MAE of 4.1%, 19.1%
+  PLOG/1.000E+02    3.71E+00        3.25    56380.0/                            ! fit btw. 400 and 2500 K with MAE of 5.1%, 22.9%
+
+h2o=hno                                 7.98E+10        0.43    68340.0
+  PLOG/1.000E-02    9.73E+08        0.93    65890.0/                            ! fit btw. 400 and 2500 K with MAE of 4.7%, 17.3%
+  PLOG/1.000E-01    9.12E+08        0.93    65840.0/                            ! fit btw. 400 and 2500 K with MAE of 4.8%, 17.6%
+  PLOG/3.160E-01    8.89E+08        0.94    65800.0/                            ! fit btw. 400 and 2500 K with MAE of 4.9%, 18.0%
+  PLOG/1.000E+00    1.15E+09        0.91    65860.0/                            ! fit btw. 400 and 2500 K with MAE of 5.1%, 18.8%
+  PLOG/3.160E+00    2.44E+09        0.82    66160.0/                            ! fit btw. 400 and 2500 K with MAE of 5.3%, 19.1%
+  PLOG/1.000E+01    7.61E+09        0.69    66700.0/                            ! fit btw. 400 and 2500 K with MAE of 5.3%, 18.3%
+  PLOG/3.160E+01    2.76E+10        0.54    67450.0/                            ! fit btw. 400 and 2500 K with MAE of 5.0%, 15.8%
+  PLOG/1.000E+02    7.98E+10        0.43    68340.0/                            ! fit btw. 400 and 2500 K with MAE of 4.2%, 11.1%
+
+hno=honoh                               7.97E+12       -0.62    7761.0
+  PLOG/1.000E-02    4.52E-05        2.30    -1237.0/                            ! fit btw. 500 and 1500 K with MAE of 9.8%, 41.8%
+  PLOG/1.000E-01    4.50E-03        2.13    -3582.0/                            ! fit btw. 400 and 1650 K with MAE of 4.8%, 15.4%
+  PLOG/3.160E-01    8.52E+00        1.47    -2426.0/                            ! fit btw. 400 and 1750 K with MAE of 1.4%, 5.1%
+  PLOG/1.000E+00    4.29E+05        0.42    193.5/                              ! fit btw. 400 and 1850 K with MAE of 2.5%, 7.3%
+  PLOG/3.160E+00    1.84E+10       -0.60    3219.0/                             ! fit btw. 400 and 2000 K with MAE of 4.9%, 17.2%
+  PLOG/1.000E+01    1.48E+13       -1.15    5648.0/                             ! fit btw. 400 and 2200 K with MAE of 6.5%, 24.3%
+  PLOG/3.160E+01    1.19E+14       -1.16    7212.0/                             ! fit btw. 400 and 2450 K with MAE of 8.2%, 30.7%
+  PLOG/1.000E+02    7.97E+12       -0.62    7761.0/                             ! fit btw. 400 and 2500 K with MAE of 9.9%, 32.9%
+
+hno=honho                               1.05E+27       -4.53    3744.0
+  PLOG/1.000E-02    1.63E+20       -3.87    4412.0/                             ! fit btw. 400 and 1500 K with MAE of 1.1%, 3.4%
+  PLOG/1.000E-01    4.54E+22       -4.26    2512.0/                             ! fit btw. 400 and 1600 K with MAE of 1.0%, 3.0%
+  PLOG/3.160E-01    2.56E+24       -4.60    2235.0/                             ! fit btw. 400 and 1650 K with MAE of 1.0%, 2.7%
+  PLOG/1.000E+00    8.55E+25       -4.86    2394.0/                             ! fit btw. 400 and 1700 K with MAE of 1.0%, 2.8%
+  PLOG/3.160E+00    8.50E+26       -4.98    2733.0/                             ! fit btw. 400 and 1750 K with MAE of 1.0%, 3.4%
+  PLOG/1.000E+01    2.66E+27       -4.96    3113.0/                             ! fit btw. 400 and 1800 K with MAE of 1.2%, 4.2%
+  PLOG/3.160E+01    2.92E+27       -4.81    3469.0/                             ! fit btw. 400 and 1900 K with MAE of 1.4%, 5.3%
+  PLOG/1.000E+02    1.05E+27       -4.53    3744.0/                             ! fit btw. 400 and 1950 K with MAE of 1.8%, 7.1%
+
+hno=hno2                                3.79E+02        2.68    12210.0
+  PLOG/1.000E-02    3.78E+02        2.68    12200.0/                            ! fit btw. 400 and 2500 K with MAE of 1.7%, 5.3%
+  PLOG/1.000E-01    3.78E+02        2.68    12200.0/                            ! fit btw. 400 and 2500 K with MAE of 1.7%, 5.3%
+  PLOG/3.160E-01    3.78E+02        2.68    12200.0/                            ! fit btw. 400 and 2500 K with MAE of 1.7%, 5.3%
+  PLOG/1.000E+00    3.78E+02        2.68    12200.0/                            ! fit btw. 400 and 2500 K with MAE of 1.7%, 5.3%
+  PLOG/3.160E+00    3.78E+02        2.68    12200.0/                            ! fit btw. 400 and 2500 K with MAE of 1.7%, 5.3%
+  PLOG/1.000E+01    3.78E+02        2.68    12200.0/                            ! fit btw. 400 and 2500 K with MAE of 1.7%, 5.3%
+  PLOG/3.160E+01    3.78E+02        2.68    12200.0/                            ! fit btw. 400 and 2500 K with MAE of 1.7%, 5.3%
+  PLOG/1.000E+02    3.79E+02        2.68    12210.0/                            ! fit btw. 400 and 2500 K with MAE of 1.7%, 5.3%
+
+hno=thono                               7.37E+02        2.83    2697.0
+  PLOG/1.000E-02    2.35E+02        2.97    2275.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.1%
+  PLOG/1.000E-01    2.35E+02        2.97    2275.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.1%
+  PLOG/3.160E-01    2.35E+02        2.97    2275.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.1%
+  PLOG/1.000E+00    2.35E+02        2.96    2276.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.1%
+  PLOG/3.160E+00    2.38E+02        2.96    2279.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.1%
+  PLOG/1.000E+01    2.51E+02        2.96    2299.0/                             ! fit btw. 400 and 2500 K with MAE of 1.5%, 4.0%
+  PLOG/3.160E+01    3.25E+02        2.93    2390.0/                             ! fit btw. 400 and 2500 K with MAE of 1.3%, 3.8%
+  PLOG/1.000E+02    7.37E+02        2.83    2697.0/                             ! fit btw. 400 and 2500 K with MAE of 1.0%, 3.1%
+
+hno=h2o                                 1.87E+11        0.24    22.0
+  PLOG/1.000E-02    2.28E+09        0.74    -2426.0/                            ! fit btw. 400 and 2500 K with MAE of 4.6%, 16.3%
+  PLOG/1.000E-01    2.14E+09        0.75    -2474.0/                            ! fit btw. 400 and 2500 K with MAE of 4.6%, 16.6%
+  PLOG/3.160E-01    2.08E+09        0.75    -2517.0/                            ! fit btw. 400 and 2500 K with MAE of 4.7%, 17.0%
+  PLOG/1.000E+00    2.70E+09        0.72    -2454.0/                            ! fit btw. 400 and 2500 K with MAE of 4.9%, 17.7%
+  PLOG/3.160E+00    5.72E+09        0.63    -2157.0/                            ! fit btw. 400 and 2500 K with MAE of 5.1%, 18.1%
+  PLOG/1.000E+01    1.78E+10        0.50    -1612.0/                            ! fit btw. 400 and 2500 K with MAE of 5.1%, 17.3%
+  PLOG/3.160E+01    6.46E+10        0.35    -863.1/                             ! fit btw. 400 and 2500 K with MAE of 4.8%, 14.9%
+  PLOG/1.000E+02    1.87E+11        0.24    22.0/                               ! fit btw. 400 and 2500 K with MAE of 4.0%, 10.2%
+
+hno=Net                                 3.04E+13       -0.39    -1694.0
+  PLOG/1.000E-02    5.85E+04        2.14    -4258.0/                            ! fit btw. 400 and 2500 K with MAE of 8.8%, 32.9%
+  PLOG/1.000E-01    5.48E+04        2.15    -4311.0/                            ! fit btw. 400 and 2500 K with MAE of 8.9%, 33.3%
+  PLOG/3.160E-01    4.93E+04        2.16    -4412.0/                            ! fit btw. 400 and 2500 K with MAE of 9.1%, 34.3%
+  PLOG/1.000E+00    4.44E+04        2.17    -4614.0/                            ! fit btw. 400 and 2500 K with MAE of 9.6%, 37.1%
+  PLOG/3.160E+00    7.52E+04        2.09    -4834.0/                            ! fit btw. 400 and 2500 K with MAE of 11.2%, 43.9%
+  PLOG/1.000E+01    1.31E+06        1.72    -4675.0/                            ! fit btw. 400 and 2500 K with MAE of 14.0%, 53.6%
+  PLOG/3.160E+01    1.07E+09        0.88    -3656.0/                            ! fit btw. 400 and 2500 K with MAE of 16.4%, 56.3%
+  PLOG/1.000E+02    3.04E+13       -0.39    -1694.0/                            ! fit btw. 400 and 2500 K with MAE of 15.4%, 42.6%
+
+honoh=Capture                           6.71E+03        2.48    22400.0
+
+honho=Capture                           1.01E+15       -0.05    30780.0
+
+hno2=Capture                            4.05E+07        1.85    5258.0
+
+thono=Capture                           1.38E+07        1.85    3605.0
+
+h2o=Capture                             4.77E-03        4.13    55160.0
+
+hno=Capture                             8.77E+12        0.17    0.0
+
+
+!------------------------------------------------------------------------------!
+!
+! RRKM/ME rate constants fit to sum of two Arrhenius expressions
+!
+!------------------------------------------------------------------------------!
+
+honoh=Net                               8.22E+13       -0.58    26660.0
+  PLOG/1.000E-02    5.71E+83      -22.62    55610.0/
+  PLOG/1.000E-02    1.06E+23       -4.24    25790.0/                            ! fit btw. 400 and 1500 K with MAE of 0.5%, 1.4%
+  PLOG/1.000E-01    8.57E+39       -8.99    36010.0/
+  PLOG/1.000E-01    1.48E+16       -1.97    23950.0/                            ! fit btw. 400 and 1650 K with MAE of 0.6%, 1.4%
+  PLOG/3.160E-01    2.95E+44      -10.16    39680.0/
+  PLOG/3.160E-01    4.70E+16       -1.97    24830.0/                            ! fit btw. 400 and 1750 K with MAE of 0.2%, 0.4%
+  PLOG/1.000E+00    6.07E+39       -8.58    38470.0/
+  PLOG/1.000E+00    3.34E+14       -1.23    24370.0/                            ! fit btw. 400 and 1850 K with MAE of 0.2%, 0.4%
+  PLOG/3.160E+00    1.98E+25       -4.13    31280.0/
+  PLOG/3.160E+00    1.64E+73      -20.75    39050.0/                            ! fit btw. 400 and 2000 K with MAE of 1.3%, 3.7%
+  PLOG/1.000E+01    8.96E+23       -3.61    31590.0/
+  PLOG/1.000E+01    1.48E+52      -13.74    33860.0/                            ! fit btw. 400 and 2200 K with MAE of 1.2%, 3.3%
+  PLOG/3.160E+01    1.25E+28       -4.71    35840.0/
+  PLOG/3.160E+01    2.79E+10        0.17    23590.0/                            ! fit btw. 400 and 2450 K with MAE of 0.5%, 1.2%
+  PLOG/1.000E+02    1.69E+22       -2.90    33330.0/
+  PLOG/1.000E+02    1.57E+11       -0.08    23760.0/                            ! fit btw. 400 and 2500 K with MAE of 0.6%, 1.4%
+
+honoh=honho                             2.32E+11       -0.93    34730.0
+  PLOG/1.000E-02    7.14E+26       -8.05    30970.0/
+  PLOG/1.000E-02    1.13E-29        8.34    7945.0/                             ! fit btw. 400 and 1500 K with MAE of 1.0%, 3.0%
+  PLOG/1.000E-01    9.81E+49      -14.56    44240.0/
+  PLOG/1.000E-01    4.94E+15       -4.19    28180.0/                            ! fit btw. 400 and 1600 K with MAE of 0.9%, 2.1%
+  PLOG/3.160E-01    4.31E+50      -14.39    46140.0/
+  PLOG/3.160E-01    1.22E+16       -4.02    29410.0/                            ! fit btw. 400 and 1650 K with MAE of 0.8%, 1.8%
+  PLOG/1.000E+00    3.80E+44      -12.26    44070.0/
+  PLOG/1.000E+00    7.12E+12       -2.81    29040.0/                            ! fit btw. 400 and 1700 K with MAE of 1.1%, 2.5%
+  PLOG/3.160E+00    2.60E+29       -7.40    37860.0/
+  PLOG/3.160E+00    5.76E-12        4.50    19960.0/                            ! fit btw. 400 and 1750 K with MAE of 1.1%, 3.8%
+  PLOG/1.000E+01    1.56E+17       -3.41    33810.0/
+  PLOG/1.000E+01    4.00E+119      -30.40    154900.0/                          ! fit btw. 400 and 1800 K with MAE of 2.7%, 11.2%
+  PLOG/3.160E+01    7.33E+12       -1.75    33680.0/
+  PLOG/3.160E+01    4.71E+148      -37.73    190900.0/                          ! fit btw. 400 and 1900 K with MAE of 3.2%, 13.9%
+  PLOG/1.000E+02    5.76E+25       -5.22    41980.0/
+  PLOG/1.000E+02    1.24E-07        4.31    26210.0/                            ! fit btw. 400 and 1950 K with MAE of 1.3%, 2.7%
+
+honoh=hno2                              8.03E+17       -2.55    53710.0
+  PLOG/1.000E-02    3.47E-46       13.00    20200.0/
+  PLOG/1.000E-02    -1.07E-34        8.13    18100.0/                           ! fit btw. 400 and 1500 K with MAE of 90.0%, 861.3%
+  PLOG/1.000E-01    3.13E+10       -1.96    63310.0/
+  PLOG/1.000E-01    5.79E-59       -0.16    -89180.0/                           ! fit btw. 500 and 1650 K with MAE of 9.8%, 58.3%
+  PLOG/3.160E-01    1.61E+01        0.82    52420.0/
+  PLOG/3.160E-01    2.09E+111      -36.68    71980.0/                           ! fit btw. 400 and 1750 K with MAE of 3.6%, 20.8%
+  PLOG/1.000E+00    8.02E+09       -1.56    52610.0/
+  PLOG/1.000E+00    8.96E-18        6.19    39800.0/                            ! fit btw. 400 and 1850 K with MAE of 0.4%, 2.2%
+  PLOG/3.160E+00    8.45E+14       -2.74    52250.0/
+  PLOG/3.160E+00    1.93E-10        4.34    41090.0/                            ! fit btw. 400 and 2000 K with MAE of 0.6%, 2.3%
+  PLOG/1.000E+01    1.44E+19       -3.61    53250.0/
+  PLOG/1.000E+01    1.25E-06        3.51    41640.0/                            ! fit btw. 400 and 2200 K with MAE of 0.7%, 2.7%
+  PLOG/3.160E+01    1.27E+35       -8.01    62550.0/
+  PLOG/3.160E+01    2.05E+13       -1.56    50480.0/                            ! fit btw. 400 and 2450 K with MAE of 1.0%, 2.8%
+  PLOG/1.000E+02    1.27E+33       -6.99    64000.0/
+  PLOG/1.000E+02    1.29E+14       -1.52    51530.0/                            ! fit btw. 400 and 2500 K with MAE of 0.5%, 1.4%
+
+honoh=thono                             3.49E+21       -2.72    45830.0
+  PLOG/1.000E-02    5.65E+19       -4.24    52520.0/
+  PLOG/1.000E-02    5.44E-13        5.18    34120.0/                            ! fit btw. 400 and 1500 K with MAE of 0.2%, 0.8%
+  PLOG/1.000E-01    6.01E+29       -6.90    52410.0/
+  PLOG/1.000E-01    4.82E-03        2.65    34690.0/                            ! fit btw. 400 and 1650 K with MAE of 0.2%, 0.5%
+  PLOG/3.160E-01    1.80E+38       -9.21    54070.0/
+  PLOG/3.160E-01    1.50E+05        0.71    36760.0/                            ! fit btw. 400 and 1750 K with MAE of 0.4%, 0.9%
+  PLOG/1.000E+00    4.63E+16       -2.35    41440.0/
+  PLOG/1.000E+00    2.08E+14       -3.77    31580.0/                            ! fit btw. 400 and 1850 K with MAE of 2.2%, 6.1%
+  PLOG/3.160E+00    1.91E+39       -8.84    52830.0/
+  PLOG/3.160E+00    2.27E+15       -1.69    40620.0/                            ! fit btw. 400 and 2000 K with MAE of 0.7%, 1.7%
+  PLOG/1.000E+01    1.05E+42       -9.29    55390.0/
+  PLOG/1.000E+01    1.61E+18       -2.24    42370.0/                            ! fit btw. 400 and 2200 K with MAE of 0.6%, 1.6%
+  PLOG/3.160E+01    1.65E+39       -8.12    55690.0/
+  PLOG/3.160E+01    1.71E+18       -2.02    43040.0/                            ! fit btw. 400 and 2450 K with MAE of 0.6%, 1.4%
+  PLOG/1.000E+02    1.82E+33       -6.10    54240.0/
+  PLOG/1.000E+02    1.13E+17       -1.53    43060.0/                            ! fit btw. 400 and 2500 K with MAE of 0.6%, 1.6%
+
+honoh=h2o                               2.13E+14       -0.70    26830.0
+  PLOG/1.000E-02    5.71E+83      -22.62    55610.0/
+  PLOG/1.000E-02    1.06E+23       -4.24    25790.0/                            ! fit btw. 400 and 1500 K with MAE of 0.5%, 1.4%
+  PLOG/1.000E-01    8.53E+39       -8.99    36010.0/
+  PLOG/1.000E-01    1.48E+16       -1.97    23950.0/                            ! fit btw. 400 and 1650 K with MAE of 0.6%, 1.4%
+  PLOG/3.160E-01    2.94E+44      -10.16    39680.0/
+  PLOG/3.160E-01    4.71E+16       -1.97    24830.0/                            ! fit btw. 400 and 1750 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E+00    5.92E+39       -8.57    38460.0/
+  PLOG/1.000E+00    3.36E+14       -1.23    24370.0/                            ! fit btw. 400 and 1850 K with MAE of 0.2%, 0.4%
+  PLOG/3.160E+00    2.11E+25       -4.14    31290.0/
+  PLOG/3.160E+00    8.25E+72      -20.65    38970.0/                            ! fit btw. 400 and 2000 K with MAE of 1.3%, 3.6%
+  PLOG/1.000E+01    1.19E+24       -3.65    31670.0/
+  PLOG/1.000E+01    2.12E+51      -13.45    33650.0/                            ! fit btw. 400 and 2200 K with MAE of 1.2%, 3.2%
+  PLOG/3.160E+01    1.29E+28       -4.71    35840.0/
+  PLOG/3.160E+01    5.19E+10        0.09    23670.0/                            ! fit btw. 400 and 2450 K with MAE of 0.5%, 1.2%
+  PLOG/1.000E+02    5.16E+22       -3.04    33610.0/
+  PLOG/1.000E+02    2.77E+12       -0.48    24140.0/                            ! fit btw. 400 and 2500 K with MAE of 0.7%, 1.6%
+
+honoh=hno                               4.05E+20       -2.59    44460.0
+  PLOG/1.000E-02    1.52E+55      -15.74    55300.0/
+  PLOG/1.000E-02    2.40E+03        0.49    38510.0/                            ! fit btw. 500 and 1500 K with MAE of 4.2%, 13.6%
+  PLOG/1.000E-01    2.08E+16       -3.29    36960.0/
+  PLOG/1.000E-01    1.90E-02        2.36    33080.0/                            ! fit btw. 400 and 1650 K with MAE of 0.3%, 1.3%
+  PLOG/3.160E-01    1.23E+12       -1.58    35560.0/
+  PLOG/3.160E-01    4.47E-04        3.05    32840.0/                            ! fit btw. 400 and 1750 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E+00    2.30E+13       -1.55    37050.0/
+  PLOG/1.000E+00    1.24E+13       -3.16    30360.0/                            ! fit btw. 400 and 1850 K with MAE of 1.6%, 4.5%
+  PLOG/3.160E+00    1.95E+39       -8.92    52150.0/
+  PLOG/3.160E+00    6.17E+12       -1.09    37380.0/                            ! fit btw. 400 and 2000 K with MAE of 0.4%, 0.9%
+  PLOG/1.000E+01    1.40E+36       -7.61    51630.0/
+  PLOG/1.000E+01    6.87E+13       -1.15    38700.0/                            ! fit btw. 400 and 2200 K with MAE of 0.4%, 1.2%
+  PLOG/3.160E+01    3.41E+34       -6.83    52330.0/
+  PLOG/3.160E+01    3.59E+14       -1.15    39920.0/                            ! fit btw. 400 and 2450 K with MAE of 0.5%, 1.6%
+  PLOG/1.000E+02    2.61E+31       -5.68    52340.0/
+  PLOG/1.000E+02    1.45E+15       -1.17    41000.0/                            ! fit btw. 400 and 2500 K with MAE of 0.6%, 2.1%
+
+honho=honoh                             1.30E+15       -1.90    34350.0
+  PLOG/1.000E-02    7.73E+24       -7.28    28270.0/
+  PLOG/1.000E-02    6.73E-32        9.16    4999.0/                             ! fit btw. 400 and 1500 K with MAE of 1.0%, 3.0%
+  PLOG/1.000E-01    8.61E+53      -15.56    44670.0/
+  PLOG/1.000E-01    3.33E+15       -3.96    26200.0/                            ! fit btw. 400 and 1600 K with MAE of 0.7%, 1.8%
+  PLOG/3.160E-01    3.50E+48      -13.56    43620.0/
+  PLOG/3.160E-01    1.08E+15       -3.54    27030.0/                            ! fit btw. 400 and 1650 K with MAE of 0.6%, 1.2%
+  PLOG/1.000E+00    2.01E+45      -12.29    43010.0/
+  PLOG/1.000E+00    1.23E+14       -3.00    27630.0/                            ! fit btw. 400 and 1700 K with MAE of 0.7%, 1.2%
+  PLOG/3.160E+00    7.39E+38      -10.09    40910.0/
+  PLOG/3.160E+00    5.10E+09       -1.43    26910.0/                            ! fit btw. 400 and 1750 K with MAE of 0.7%, 1.3%
+  PLOG/1.000E+01    4.23E+29       -6.98    38250.0/
+  PLOG/1.000E+01    5.24E+04        0.35    26130.0/                            ! fit btw. 400 and 1800 K with MAE of 0.3%, 0.7%
+  PLOG/3.160E+01    1.43E+24       -4.92    38000.0/
+  PLOG/3.160E+01    2.53E+03        1.02    26760.0/                            ! fit btw. 400 and 1900 K with MAE of 0.4%, 1.1%
+  PLOG/1.000E+02    3.27E+25       -4.91    40790.0/
+  PLOG/1.000E+02    8.63E+03        1.14    28160.0/                            ! fit btw. 400 and 1950 K with MAE of 0.6%, 1.9%
+
+honho=Net                               4.94E+25       -3.73    32740.0
+  PLOG/1.000E-02    1.57E+63      -16.48    44970.0/
+  PLOG/1.000E-02    2.17E+22       -4.04    25580.0/                            ! fit btw. 400 and 1500 K with MAE of 0.5%, 1.4%
+  PLOG/1.000E-01    1.88E+53      -13.07    41900.0/
+  PLOG/1.000E-01    3.28E+21       -3.48    26330.0/                            ! fit btw. 400 and 1600 K with MAE of 0.4%, 1.0%
+  PLOG/3.160E-01    7.87E+48      -11.55    40730.0/
+  PLOG/3.160E-01    4.60E+20       -3.09    26520.0/                            ! fit btw. 400 and 1650 K with MAE of 0.4%, 0.7%
+  PLOG/1.000E+00    7.28E+44      -10.13    39830.0/
+  PLOG/1.000E+00    2.16E+19       -2.56    26510.0/                            ! fit btw. 400 and 1700 K with MAE of 0.3%, 0.7%
+  PLOG/3.160E+00    4.66E+36       -7.47    36610.0/
+  PLOG/3.160E+00    3.18E+15       -1.36    25220.0/                            ! fit btw. 400 and 1750 K with MAE of 0.6%, 1.1%
+  PLOG/1.000E+01    8.45E+40       -8.53    40050.0/
+  PLOG/1.000E+01    8.70E+15       -1.31    26160.0/                            ! fit btw. 400 and 1800 K with MAE of 0.4%, 1.0%
+  PLOG/3.160E+01    7.56E+30       -5.37    35190.0/
+  PLOG/3.160E+01    5.08E+79      -22.48    42210.0/                            ! fit btw. 400 and 1900 K with MAE of 1.6%, 4.4%
+  PLOG/1.000E+02    5.02E+31       -5.45    36500.0/
+  PLOG/1.000E+02    7.87E+69      -19.15    40050.0/                            ! fit btw. 400 and 1950 K with MAE of 1.6%, 4.5%
+
+honho=hno2                              1.60E+10       -0.61    46370.0
+  PLOG/1.000E-02    -1.47E-75       22.49    11940.0/
+  PLOG/1.000E-02    1.32E-86       26.05    8462.0/                             ! fit btw. 400 and 1500 K with MAE of 80.6%, 630.2%
+  PLOG/1.000E-01    6.03E+01        0.91    55770.0/
+  PLOG/1.000E-01    4.40E-54       10.08    -7422.0/                            ! fit btw. 400 and 1600 K with MAE of 2.5%, 9.7%
+  PLOG/3.160E-01    1.77E+03        0.63    54380.0/
+  PLOG/3.160E-01    2.93E-21        0.58    3481.0/                             ! fit btw. 450 and 1650 K with MAE of 1.6%, 4.5%
+  PLOG/1.000E+00    8.92E+05       -0.00    54040.0/
+  PLOG/1.000E+00    8.34E+122      -38.64    83370.0/                           ! fit btw. 400 and 1700 K with MAE of 2.2%, 11.9%
+  PLOG/3.160E+00    5.92E+17       -3.36    58860.0/
+  PLOG/3.160E+00    8.53E-09        4.10    44210.0/                            ! fit btw. 400 and 1750 K with MAE of 0.4%, 1.6%
+  PLOG/1.000E+01    4.95E+20       -4.08    58330.0/
+  PLOG/1.000E+01    1.39E-05        3.33    43660.0/                            ! fit btw. 400 and 1800 K with MAE of 0.3%, 1.1%
+  PLOG/3.160E+01    1.73E+24       -4.98    57520.0/
+  PLOG/3.160E+01    9.97E-02        2.39    43150.0/                            ! fit btw. 400 and 1900 K with MAE of 0.3%, 1.0%
+  PLOG/1.000E+02    4.32E+31       -7.00    58500.0/
+  PLOG/1.000E+02    2.26E+05        0.77    43940.0/                            ! fit btw. 400 and 1950 K with MAE of 0.5%, 1.1%
+
+honho=thono                             3.45E+24       -4.13    39570.0
+  PLOG/1.000E-02    1.73E+27       -6.57    49910.0/
+  PLOG/1.000E-02    2.22E-03        2.32    34890.0/                            ! fit btw. 400 and 1500 K with MAE of 0.3%, 0.6%
+  PLOG/1.000E-01    5.69E+31       -7.60    48830.0/
+  PLOG/1.000E-01    1.12E+02        1.25    33690.0/                            ! fit btw. 400 and 1600 K with MAE of 0.3%, 0.6%
+  PLOG/3.160E-01    3.09E+19       -3.72    40770.0/
+  PLOG/3.160E-01    4.25E-02        2.34    30600.0/                            ! fit btw. 400 and 1650 K with MAE of 0.9%, 1.7%
+  PLOG/1.000E+00    1.75E+15       -2.23    37290.0/
+  PLOG/1.000E+00    4.50E+168      -53.86    73220.0/                           ! fit btw. 400 and 1700 K with MAE of 1.6%, 5.0%
+  PLOG/3.160E+00    8.80E+39       -9.57    48350.0/
+  PLOG/3.160E+00    8.15E+12       -1.38    35200.0/                            ! fit btw. 400 and 1750 K with MAE of 0.8%, 1.9%
+  PLOG/1.000E+01    4.15E+23       -4.34    39430.0/
+  PLOG/1.000E+01    3.53E-09        4.87    25370.0/                            ! fit btw. 400 and 1800 K with MAE of 0.7%, 2.4%
+  PLOG/3.160E+01    8.06E+25       -4.79    40130.0/
+  PLOG/3.160E+01    2.30E-08        4.82    25390.0/                            ! fit btw. 400 and 1900 K with MAE of 0.7%, 2.3%
+  PLOG/1.000E+02    5.71E+27       -5.10    41110.0/
+  PLOG/1.000E+02    6.86E-04        3.72    27200.0/                            ! fit btw. 400 and 1950 K with MAE of 0.8%, 2.7%
+
+honho=h2o                               7.91E+25       -4.22    30720.0
+  PLOG/1.000E-02    2.31E+63      -16.52    45220.0/
+  PLOG/1.000E-02    5.11E+22       -4.15    25710.0/                            ! fit btw. 400 and 1500 K with MAE of 0.5%, 1.2%
+  PLOG/1.000E-01    2.92E+52      -12.81    41620.0/
+  PLOG/1.000E-01    2.84E+22       -3.79    26600.0/                            ! fit btw. 400 and 1600 K with MAE of 0.4%, 0.7%
+  PLOG/3.160E-01    1.55E+49      -11.65    40700.0/
+  PLOG/3.160E-01    1.98E+22       -3.63    26940.0/                            ! fit btw. 400 and 1650 K with MAE of 0.3%, 0.7%
+  PLOG/1.000E+00    5.30E+37       -8.06    35200.0/
+  PLOG/1.000E+00    4.57E+16       -1.98    24550.0/                            ! fit btw. 400 and 1700 K with MAE of 0.7%, 1.4%
+  PLOG/3.160E+00    9.88E+45      -10.44    40200.0/
+  PLOG/3.160E+00    4.42E+21       -3.29    27250.0/                            ! fit btw. 400 and 1750 K with MAE of 0.3%, 0.9%
+  PLOG/1.000E+01    2.17E+39       -8.36    37140.0/
+  PLOG/1.000E+01    2.36E+18       -2.32    25910.0/                            ! fit btw. 400 and 1800 K with MAE of 0.6%, 1.1%
+  PLOG/3.160E+01    2.20E+39       -8.27    37850.0/
+  PLOG/3.160E+01    1.32E+18       -2.16    26150.0/                            ! fit btw. 400 and 1900 K with MAE of 0.6%, 1.1%
+  PLOG/1.000E+02    1.03E+41       -8.66    39760.0/
+  PLOG/1.000E+02    2.78E+18       -2.15    26770.0/                            ! fit btw. 400 and 1950 K with MAE of 0.4%, 1.3%
+
+honho=hno                               1.02E+33       -5.81    37870.0
+  PLOG/1.000E-02    5.22E+28       -5.90    39730.0/
+  PLOG/1.000E-02    2.74E-09        4.95    24150.0/                            ! fit btw. 400 and 1500 K with MAE of 0.6%, 1.8%
+  PLOG/1.000E-01    1.70E+31       -6.32    37850.0/
+  PLOG/1.000E-01    1.93E-05        4.10    22680.0/                            ! fit btw. 400 and 1600 K with MAE of 0.6%, 1.7%
+  PLOG/3.160E-01    1.14E+33       -6.68    37600.0/
+  PLOG/3.160E-01    2.33E-02        3.35    22870.0/                            ! fit btw. 400 and 1650 K with MAE of 0.6%, 1.8%
+  PLOG/1.000E+00    3.60E+34       -6.93    37750.0/
+  PLOG/1.000E+00    8.72E-01        3.04    22900.0/                            ! fit btw. 400 and 1700 K with MAE of 0.6%, 1.9%
+  PLOG/3.160E+00    6.79E+35       -7.13    38230.0/
+  PLOG/3.160E+00    2.12E+04        1.92    24510.0/                            ! fit btw. 400 and 1750 K with MAE of 0.7%, 2.1%
+  PLOG/1.000E+01    4.08E+38       -7.81    39740.0/
+  PLOG/1.000E+01    3.83E+17       -1.73    30260.0/                            ! fit btw. 400 and 1800 K with MAE of 0.8%, 2.0%
+  PLOG/3.160E+01    1.28E+44       -9.34    42900.0/
+  PLOG/3.160E+01    4.34E+25       -3.86    34040.0/                            ! fit btw. 400 and 1900 K with MAE of 0.9%, 1.7%
+  PLOG/1.000E+02    6.31E+62      -14.81    53640.0/
+  PLOG/1.000E+02    1.79E+30       -5.01    36540.0/                            ! fit btw. 400 and 1950 K with MAE of 0.8%, 2.3%
+
+hno2=honoh                              2.18E+16       -1.75    10490.0
+  PLOG/1.000E-02    3.59E-43       12.41    -21030.0/
+  PLOG/1.000E-02    -1.93E-37        9.40    -24860.0/                          ! fit btw. 400 and 1500 K with MAE of 92.5%, 815.8%
+  PLOG/1.000E-01    -1.06E-35       10.29    -17910.0/
+  PLOG/1.000E-01    1.59E-46       14.45    -15450.0/                           ! fit btw. 500 and 1650 K with MAE of 70.2%, 651.6%
+  PLOG/3.160E-01    1.33E+02        0.89    10580.0/
+  PLOG/3.160E-01    4.76E+77      -25.48    19550.0/                            ! fit btw. 400 and 1750 K with MAE of 2.2%, 18.1%
+  PLOG/1.000E+00    2.47E+04        0.43    7580.0/
+  PLOG/1.000E+00    1.05E+00        0.52    0.1/                                ! fit btw. 400 and 1850 K with MAE of 0.6%, 1.8%
+  PLOG/3.160E+00    9.57E+23       -5.16    15510.0/
+  PLOG/3.160E+00    2.10E+05        0.41    5039.0/                             ! fit btw. 400 and 2000 K with MAE of 0.1%, 0.3%
+  PLOG/1.000E+01    6.57E+119      -37.39    33040.0/
+  PLOG/1.000E+01    4.34E+14       -1.91    8689.0/                             ! fit btw. 400 and 2200 K with MAE of 1.0%, 2.7%
+  PLOG/3.160E+01    6.35E+27       -5.44    17330.0/
+  PLOG/3.160E+01    5.40E+12       -1.09    7474.0/                             ! fit btw. 400 and 2450 K with MAE of 0.2%, 0.7%
+  PLOG/1.000E+02    1.96E+21       -3.12    14420.0/
+  PLOG/1.000E+02    1.13E+27       -5.67    11320.0/                            ! fit btw. 400 and 2500 K with MAE of 0.6%, 1.4%
+
+hno2=honho                              1.55E+10       -0.46    5659.0
+  PLOG/1.000E-02    1.17E+108      -37.04    22780.0/
+  PLOG/1.000E-02    3.13E+42      -10.82    46630.0/                            ! fit btw. 400 and 1500 K with MAE of 15.4%, 100.6%
+  PLOG/1.000E-01    1.23E-34       11.46    -4596.0/
+  PLOG/1.000E-01    -3.14E-47       13.41    -22630.0/                          ! fit btw. 400 and 1600 K with MAE of 103.8%, 1559.6%
+  PLOG/3.160E-01    3.76E+04        0.38    14350.0/
+  PLOG/3.160E-01    1.37E-84       23.12    -45300.0/                           ! fit btw. 450 and 1650 K with MAE of 2.1%, 7.3%
+  PLOG/1.000E+00    1.25E+02        1.26    11140.0/
+  PLOG/1.000E+00    4.90E-01        1.08    5717.0/                             ! fit btw. 400 and 1700 K with MAE of 6.8%, 24.4%
+  PLOG/3.160E+00    3.19E+12       -1.61    15680.0/
+  PLOG/3.160E+00    4.14E-06        3.31    3909.0/                             ! fit btw. 400 and 1750 K with MAE of 0.4%, 1.6%
+  PLOG/1.000E+01    2.85E+14       -2.03    14630.0/
+  PLOG/1.000E+01    9.00E-04        2.82    3122.0/                             ! fit btw. 400 and 1800 K with MAE of 0.2%, 0.8%
+  PLOG/3.160E+01    4.55E+16       -2.53    13140.0/
+  PLOG/3.160E+01    8.85E-01        2.15    2333.0/                             ! fit btw. 400 and 1900 K with MAE of 0.2%, 0.6%
+  PLOG/1.000E+02    2.58E+21       -3.75    12810.0/
+  PLOG/1.000E+02    1.28E+05        0.91    2769.0/                             ! fit btw. 400 and 1950 K with MAE of 0.2%, 0.5%
+
+hno2=Net                                4.45E+07        1.84    5275.0
+  PLOG/1.000E-02    1.73E+09        1.37    6945.0/
+  PLOG/1.000E-02    2.89E+06        2.01    4081.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+  PLOG/1.000E-01    1.73E+09        1.37    6945.0/
+  PLOG/1.000E-01    2.89E+06        2.01    4081.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+  PLOG/3.160E-01    1.73E+09        1.37    6945.0/
+  PLOG/3.160E-01    2.89E+06        2.01    4081.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+  PLOG/1.000E+00    1.73E+09        1.37    6945.0/
+  PLOG/1.000E+00    2.89E+06        2.01    4081.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+  PLOG/3.160E+00    1.73E+09        1.37    6945.0/
+  PLOG/3.160E+00    2.89E+06        2.01    4081.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+  PLOG/1.000E+01    1.73E+09        1.37    6945.0/
+  PLOG/1.000E+01    2.89E+06        2.01    4081.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+  PLOG/3.160E+01    1.73E+09        1.37    6944.0/
+  PLOG/3.160E+01    2.89E+06        2.01    4081.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+  PLOG/1.000E+02    1.72E+09        1.37    6943.0/
+  PLOG/1.000E+02    2.89E+06        2.01    4081.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+
+hno2=thono                              2.17E-01        4.06    4525.0
+  PLOG/1.000E-02    3.89E+04        2.58    10770.0/
+  PLOG/1.000E-02    6.13E+00        3.53    4586.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.9%
+  PLOG/1.000E-01    3.90E+04        2.58    10770.0/
+  PLOG/1.000E-01    6.13E+00        3.53    4586.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.8%
+  PLOG/3.160E-01    3.90E+04        2.58    10770.0/
+  PLOG/3.160E-01    6.14E+00        3.53    4586.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.8%
+  PLOG/1.000E+00    3.91E+04        2.58    10770.0/
+  PLOG/1.000E+00    6.13E+00        3.53    4586.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.9%
+  PLOG/3.160E+00    3.91E+04        2.58    10770.0/
+  PLOG/3.160E+00    6.13E+00        3.53    4587.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.8%
+  PLOG/1.000E+01    3.95E+04        2.58    10780.0/
+  PLOG/1.000E+01    6.13E+00        3.53    4589.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.9%
+  PLOG/3.160E+01    4.11E+04        2.58    10800.0/
+  PLOG/3.160E+01    6.12E+00        3.53    4594.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.9%
+  PLOG/1.000E+02    4.64E+04        2.56    10880.0/
+  PLOG/1.000E+02    6.11E+00        3.53    4616.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.9%
+
+hno2=h2o                                7.05E+03        2.58    4579.0
+  PLOG/1.000E-02    2.71E+05        2.09    7074.0/
+  PLOG/1.000E-02    2.20E+04        2.33    4333.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E-01    2.72E+05        2.09    7075.0/
+  PLOG/1.000E-01    2.21E+04        2.33    4334.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/3.160E-01    2.70E+05        2.09    7070.0/
+  PLOG/3.160E-01    2.20E+04        2.33    4332.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E+00    2.73E+05        2.09    7077.0/
+  PLOG/1.000E+00    2.21E+04        2.33    4334.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/3.160E+00    2.73E+05        2.09    7075.0/
+  PLOG/3.160E+00    2.21E+04        2.33    4333.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E+01    2.76E+05        2.09    7072.0/
+  PLOG/1.000E+01    2.21E+04        2.33    4332.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/3.160E+01    3.17E+05        2.07    7134.0/
+  PLOG/3.160E+01    2.27E+04        2.33    4334.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E+02    7.05E+05        1.98    7747.0/
+  PLOG/1.000E+02    3.03E+04        2.30    4425.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+
+hno2=hno                                5.25E+08        1.50    5687.0
+  PLOG/1.000E-02    4.77E+11        0.67    9135.0/
+  PLOG/1.000E-02    4.52E+09        1.06    5282.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.6%
+  PLOG/1.000E-01    4.77E+11        0.67    9135.0/
+  PLOG/1.000E-01    4.52E+09        1.06    5282.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.6%
+  PLOG/3.160E-01    4.77E+11        0.67    9135.0/
+  PLOG/3.160E-01    4.52E+09        1.06    5282.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.6%
+  PLOG/1.000E+00    4.77E+11        0.67    9135.0/
+  PLOG/1.000E+00    4.52E+09        1.06    5282.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.6%
+  PLOG/3.160E+00    4.78E+11        0.67    9136.0/
+  PLOG/3.160E+00    4.52E+09        1.06    5282.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.6%
+  PLOG/1.000E+01    4.78E+11        0.67    9136.0/
+  PLOG/1.000E+01    4.53E+09        1.06    5282.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.6%
+  PLOG/3.160E+01    4.76E+11        0.67    9134.0/
+  PLOG/3.160E+01    4.52E+09        1.06    5282.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.6%
+  PLOG/1.000E+02    4.78E+11        0.67    9137.0/
+  PLOG/1.000E+02    4.53E+09        1.06    5283.0/                             ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.6%
+
+thono=honoh                             1.56E+20       -2.38    10960.0
+  PLOG/1.000E-02    1.49E+09       -1.07    13220.0/
+  PLOG/1.000E-02    1.79E-10        4.24    179.7/                              ! fit btw. 400 and 1500 K with MAE of 0.2%, 0.8%
+  PLOG/1.000E-01    2.96E+20       -5.15    5363.0/
+  PLOG/1.000E-01    4.16E+07       -0.26    6245.0/                             ! fit btw. 400 and 1650 K with MAE of 0.3%, 0.5%
+  PLOG/3.160E-01    3.42E+21       -4.19    12020.0/
+  PLOG/3.160E-01    3.32E+04        0.77    1836.0/                             ! fit btw. 400 and 1750 K with MAE of 0.1%, 0.2%
+  PLOG/1.000E+00    1.03E+17       -2.50    7446.0/
+  PLOG/1.000E+00    4.54E+94      -28.95    24140.0/                            ! fit btw. 400 and 1850 K with MAE of 0.7%, 1.6%
+  PLOG/3.160E+00    2.29E+32       -6.78    15780.0/
+  PLOG/3.160E+00    2.83E+15       -1.81    6203.0/                             ! fit btw. 400 and 2000 K with MAE of 0.1%, 0.4%
+  PLOG/1.000E+01    7.13E+32       -6.58    16850.0/
+  PLOG/1.000E+01    2.39E+17       -2.10    7490.0/                             ! fit btw. 400 and 2200 K with MAE of 0.2%, 0.6%
+  PLOG/3.160E+01    2.66E+31       -5.84    17550.0/
+  PLOG/3.160E+01    2.93E+17       -1.91    8120.0/                             ! fit btw. 400 and 2450 K with MAE of 0.2%, 1.0%
+  PLOG/1.000E+02    1.40E+28       -4.62    17390.0/
+  PLOG/1.000E+02    2.18E+17       -1.76    8463.0/                             ! fit btw. 400 and 2500 K with MAE of 0.4%, 1.5%
+
+thono=honho                             1.21E+25       -4.53    7362.0
+  PLOG/1.000E-02    2.91E+11       -1.97    10320.0/
+  PLOG/1.000E-02    -1.81E+00        1.23    4673.0/                            ! fit btw. 400 and 1500 K with MAE of 59.2%, 110.8%
+  PLOG/1.000E-01    2.62E+23       -5.30    12520.0/
+  PLOG/1.000E-01    1.49E+03        0.61    1395.0/                             ! fit btw. 400 and 1600 K with MAE of 0.1%, 0.3%
+  PLOG/3.160E-01    1.06E+15       -2.59    6061.0/
+  PLOG/3.160E-01    3.72E+75      -23.40    17960.0/                            ! fit btw. 400 and 1650 K with MAE of 0.6%, 1.3%
+  PLOG/1.000E+00    2.23E+31       -7.35    13650.0/
+  PLOG/1.000E+00    1.11E+11       -1.30    2584.0/                             ! fit btw. 400 and 1700 K with MAE of 0.1%, 0.3%
+  PLOG/3.160E+00    8.95E+39       -9.78    16860.0/
+  PLOG/3.160E+00    2.69E+15       -2.37    3788.0/                             ! fit btw. 400 and 1750 K with MAE of 0.2%, 0.3%
+  PLOG/1.000E+01    1.47E+49      -12.40    20350.0/
+  PLOG/1.000E+01    1.21E+19       -3.24    4835.0/                             ! fit btw. 400 and 1800 K with MAE of 0.3%, 0.7%
+  PLOG/3.160E+01    4.49E+45      -11.11    17900.0/
+  PLOG/3.160E+01    1.29E+21       -3.62    5430.0/                             ! fit btw. 400 and 1900 K with MAE of 0.4%, 0.9%
+  PLOG/1.000E+02    2.11E+52      -12.82    21930.0/
+  PLOG/1.000E+02    1.64E+23       -4.00    6465.0/                             ! fit btw. 400 and 1950 K with MAE of 0.4%, 1.0%
+
+thono=hno2                              3.58E-01        3.60    12880.0
+  PLOG/1.000E-02    1.76E+04        2.26    19520.0/
+  PLOG/1.000E-02    4.84E+00        3.21    13050.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/1.000E-01    1.74E+04        2.26    19510.0/
+  PLOG/1.000E-01    4.85E+00        3.21    13050.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/3.160E-01    1.75E+04        2.26    19510.0/
+  PLOG/3.160E-01    4.85E+00        3.21    13050.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/1.000E+00    1.76E+04        2.26    19520.0/
+  PLOG/1.000E+00    4.85E+00        3.21    13050.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/3.160E+00    1.77E+04        2.26    19520.0/
+  PLOG/3.160E+00    4.85E+00        3.21    13050.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E+01    1.77E+04        2.26    19520.0/
+  PLOG/1.000E+01    4.85E+00        3.21    13050.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/3.160E+01    1.89E+04        2.25    19550.0/
+  PLOG/3.160E+01    4.83E+00        3.21    13060.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E+02    2.57E+04        2.21    19720.0/
+  PLOG/1.000E+02    4.68E+00        3.22    13070.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+
+thono=Net                               1.97E+08        1.50    4070.0
+  PLOG/1.000E-02    1.90E+12        0.34    9599.0/
+  PLOG/1.000E-02    1.61E+09        1.16    4115.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+  PLOG/1.000E-01    1.90E+12        0.34    9598.0/
+  PLOG/1.000E-01    1.61E+09        1.16    4115.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.3%
+  PLOG/3.160E-01    1.90E+12        0.34    9599.0/
+  PLOG/3.160E-01    1.62E+09        1.16    4116.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+  PLOG/1.000E+00    1.90E+12        0.34    9597.0/
+  PLOG/1.000E+00    1.62E+09        1.16    4116.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+  PLOG/3.160E+00    1.92E+12        0.34    9599.0/
+  PLOG/3.160E+00    1.62E+09        1.16    4116.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.3%
+  PLOG/1.000E+01    1.95E+12        0.34    9602.0/
+  PLOG/1.000E+01    1.63E+09        1.16    4116.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+  PLOG/3.160E+01    2.15E+12        0.33    9632.0/
+  PLOG/3.160E+01    1.65E+09        1.16    4118.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+  PLOG/1.000E+02    3.01E+12        0.29    9770.0/
+  PLOG/1.000E+02    1.70E+09        1.16    4124.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+
+thono=h2o                               4.57E+03        2.70    4072.0
+  PLOG/1.000E-02    9.17E+11        0.36    9844.0/
+  PLOG/1.000E-02    2.73E+07        1.35    4061.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/1.000E-01    9.15E+11        0.36    9843.0/
+  PLOG/1.000E-01    2.72E+07        1.35    4058.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/3.160E-01    9.14E+11        0.36    9841.0/
+  PLOG/3.160E-01    2.69E+07        1.35    4054.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/1.000E+00    9.09E+11        0.36    9834.0/
+  PLOG/1.000E+00    2.65E+07        1.35    4048.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/3.160E+00    9.09E+11        0.36    9806.0/
+  PLOG/3.160E+00    2.11E+07        1.37    3982.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/1.000E+01    3.17E+12        0.21    10270.0/
+  PLOG/1.000E+01    1.60E+06        1.70    3561.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+  PLOG/3.160E+01    7.95E+14       -0.45    12650.0/
+  PLOG/3.160E+01    3.28E+04        2.25    3126.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.9%
+  PLOG/1.000E+02    9.81E+16       -0.99    15770.0/
+  PLOG/1.000E+02    3.88E+04        2.23    3303.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+
+thono=hno                               1.69E+09        1.20    4534.0
+  PLOG/1.000E-02    4.80E+11        0.44    9042.0/
+  PLOG/1.000E-02    2.86E+09        1.07    4176.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.4%
+  PLOG/1.000E-01    4.79E+11        0.44    9041.0/
+  PLOG/1.000E-01    2.86E+09        1.07    4176.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.4%
+  PLOG/3.160E-01    4.82E+11        0.44    9045.0/
+  PLOG/3.160E-01    2.86E+09        1.07    4177.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.4%
+  PLOG/1.000E+00    4.89E+11        0.44    9055.0/
+  PLOG/1.000E+00    2.86E+09        1.07    4178.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.4%
+  PLOG/3.160E+00    5.18E+11        0.43    9097.0/
+  PLOG/3.160E+00    2.88E+09        1.07    4184.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.4%
+  PLOG/1.000E+01    4.06E+11        0.43    8741.0/
+  PLOG/1.000E+01    1.52E+09        1.16    4104.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/3.160E+01    5.68E+11        0.43    9529.0/
+  PLOG/3.160E+01    5.37E+09        1.00    4379.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.3%
+  PLOG/1.000E+02    4.37E+09        1.06    4635.0/
+  PLOG/1.000E+02    6.13E+14       -0.49    13380.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+
+h2o=honoh                               1.78E+06        1.46    58440.0
+  PLOG/1.000E-02    4.91E+48      -12.23    75550.0/
+  PLOG/1.000E-02    9.71E+15       -2.43    57630.0/                            ! fit btw. 400 and 1500 K with MAE of 0.1%, 0.5%
+  PLOG/1.000E-01    1.27E+32       -6.86    68500.0/
+  PLOG/1.000E-01    1.21E+12       -1.02    57040.0/                            ! fit btw. 400 and 1650 K with MAE of 0.1%, 0.3%
+  PLOG/3.160E-01    1.16E+56      -15.72    67790.0/
+  PLOG/3.160E-01    1.77E+21       -3.44    63130.0/                            ! fit btw. 400 and 1750 K with MAE of 0.4%, 0.7%
+  PLOG/1.000E+00    6.71E+25       -4.63    67300.0/
+  PLOG/1.000E+00    5.86E+08        0.13    56430.0/                            ! fit btw. 400 and 1850 K with MAE of 0.1%, 0.3%
+  PLOG/3.160E+00    6.78E+22       -3.59    66860.0/
+  PLOG/3.160E+00    2.96E+08        0.26    56480.0/                            ! fit btw. 400 and 2000 K with MAE of 0.2%, 0.4%
+  PLOG/1.000E+01    2.13E+20       -2.71    66690.0/
+  PLOG/1.000E+01    5.44E+09       -0.11    57040.0/                            ! fit btw. 400 and 2200 K with MAE of 0.3%, 1.1%
+  PLOG/3.160E+01    5.79E+18       -2.13    67100.0/
+  PLOG/3.160E+01    4.95E+08        0.30    57060.0/                            ! fit btw. 400 and 2450 K with MAE of 0.8%, 2.3%
+  PLOG/1.000E+02    4.47E+16       -1.42    67030.0/
+  PLOG/1.000E+02    4.67E+06        1.00    56700.0/                            ! fit btw. 400 and 2500 K with MAE of 1.3%, 3.6%
+
+h2o=honho                               3.87E+19       -2.77    64930.0
+  PLOG/1.000E-02    7.76E+40      -10.13    72510.0/
+  PLOG/1.000E-02    3.64E+17       -3.08    60240.0/                            ! fit btw. 400 and 1500 K with MAE of 0.1%, 0.2%
+  PLOG/1.000E-01    9.35E+33       -7.65    70210.0/
+  PLOG/1.000E-01    6.16E+16       -2.60    60800.0/                            ! fit btw. 400 and 1600 K with MAE of 0.1%, 0.3%
+  PLOG/3.160E-01    1.29E+33       -7.23    70310.0/
+  PLOG/3.160E-01    4.29E+16       -2.45    61090.0/                            ! fit btw. 400 and 1650 K with MAE of 0.1%, 0.3%
+  PLOG/1.000E+00    6.63E+32       -7.01    70650.0/
+  PLOG/1.000E+00    3.34E+16       -2.34    61340.0/                            ! fit btw. 400 and 1700 K with MAE of 0.2%, 0.3%
+  PLOG/3.160E+00    2.50E+32       -6.78    70910.0/
+  PLOG/3.160E+00    1.85E+16       -2.20    61470.0/                            ! fit btw. 400 and 1750 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E+01    4.18E+31       -6.46    71060.0/
+  PLOG/1.000E+01    5.22E+15       -1.98    61480.0/                            ! fit btw. 400 and 1800 K with MAE of 0.2%, 0.5%
+  PLOG/3.160E+01    2.23E+30       -5.99    71060.0/
+  PLOG/3.160E+01    7.73E+14       -1.67    61400.0/                            ! fit btw. 400 and 1900 K with MAE of 0.2%, 0.7%
+  PLOG/1.000E+02    3.94E+28       -5.37    70950.0/
+  PLOG/1.000E+02    8.12E+13       -1.32    61280.0/                            ! fit btw. 400 and 1950 K with MAE of 0.2%, 0.8%
+
+h2o=hno2                                2.17E-03        3.95    79410.0
+  PLOG/1.000E-02    6.69E+16       -1.51    104000.0/
+  PLOG/1.000E-02    6.42E-03        3.80    79570.0/                            ! fit btw. 400 and 2500 K with MAE of 0.0%, 0.2%
+  PLOG/1.000E-01    6.83E+16       -1.51    104000.0/
+  PLOG/1.000E-01    6.42E-03        3.80    79570.0/                            ! fit btw. 400 and 2500 K with MAE of 0.0%, 0.3%
+  PLOG/3.160E-01    2.48E+09        0.54    96470.0/
+  PLOG/3.160E-01    9.10E-03        3.75    79620.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.3%
+  PLOG/1.000E+00    2.35E+09        0.55    96450.0/
+  PLOG/1.000E+00    9.11E-03        3.75    79620.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.3%
+  PLOG/3.160E+00    2.20E+09        0.55    96410.0/
+  PLOG/3.160E+00    9.12E-03        3.75    79620.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+  PLOG/1.000E+01    1.47E+09        0.60    96210.0/
+  PLOG/1.000E+01    9.21E-03        3.75    79630.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+  PLOG/3.160E+01    9.73E+07        0.92    94800.0/
+  PLOG/3.160E+01    9.48E-03        3.75    79630.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.3%
+  PLOG/1.000E+02    6.53E+15       -1.25    102100.0/
+  PLOG/1.000E+02    5.22E-03        3.83    79540.0/                            ! fit btw. 400 and 2500 K with MAE of 0.0%, 0.2%
+
+h2o=thono                               8.52E-04        4.52    70550.0
+  PLOG/1.000E-02    1.13E+06        1.95    77190.0/
+  PLOG/1.000E-02    2.54E+01        2.98    70930.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 0.9%
+  PLOG/1.000E-01    1.13E+06        1.95    77190.0/
+  PLOG/1.000E-01    2.53E+01        2.98    70930.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 0.9%
+  PLOG/3.160E-01    1.12E+06        1.95    77190.0/
+  PLOG/3.160E-01    2.50E+01        2.98    70930.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 1.0%
+  PLOG/1.000E+00    1.11E+06        1.96    77180.0/
+  PLOG/1.000E+00    2.48E+01        2.98    70920.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 0.9%
+  PLOG/3.160E+00    1.01E+06        1.97    77100.0/
+  PLOG/3.160E+00    2.16E+01        2.99    70870.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 0.8%
+  PLOG/1.000E+01    1.66E+06        1.91    77260.0/
+  PLOG/1.000E+01    7.13E+00        3.10    70580.0/                            ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.7%
+  PLOG/3.160E+01    4.49E+07        1.53    78900.0/
+  PLOG/3.160E+01    1.05E+00        3.35    70280.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/1.000E+02    2.62E+10        0.79    82490.0/
+  PLOG/1.000E+02    6.85E-02        3.74    70110.0/                            ! fit btw. 400 and 2500 K with MAE of 0.3%, 0.7%
+
+h2o=Net                                 3.71E+00        3.25    56380.0
+  PLOG/1.000E-02    2.55E+00        3.35    59740.0/
+  PLOG/1.000E-02    5.70E+27       -6.25    60980.0/                            ! fit btw. 400 and 2500 K with MAE of 0.8%, 1.6%
+  PLOG/1.000E-01    2.31E-01        3.63    58870.0/
+  PLOG/1.000E-01    4.60E+08        0.18    56470.0/                            ! fit btw. 400 and 2500 K with MAE of 0.5%, 1.1%
+  PLOG/3.160E-01    3.55E-04        4.24    53570.0/
+  PLOG/3.160E-01    1.31E+02        2.89    64740.0/                            ! fit btw. 400 and 2500 K with MAE of 0.5%, 1.6%
+  PLOG/1.000E+00    1.44E+40       -9.09    74060.0/
+  PLOG/1.000E+00    5.05E-06        4.86    53130.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 2.5%
+  PLOG/3.160E+00    1.45E+25       -4.30    68640.0/
+  PLOG/3.160E+00    1.66E-05        4.71    53370.0/                            ! fit btw. 400 and 2500 K with MAE of 0.8%, 3.8%
+  PLOG/1.000E+01    1.96E+18       -2.10    66200.0/
+  PLOG/1.000E+01    3.16E-05        4.63    53490.0/                            ! fit btw. 400 and 2500 K with MAE of 1.2%, 5.0%
+  PLOG/3.160E+01    9.52E+01        2.83    57210.0/
+  PLOG/3.160E+01    1.17E+145      -45.01    91450.0/                           ! fit btw. 400 and 2500 K with MAE of 2.4%, 6.7%
+  PLOG/1.000E+02    9.27E+02        2.58    58100.0/
+  PLOG/1.000E+02    7.03E+57      -16.24    68610.0/                            ! fit btw. 400 and 2500 K with MAE of 1.3%, 3.7%
+
+h2o=hno                                 7.98E+10        0.43    68340.0
+  PLOG/1.000E-02    1.93E+16       -1.34    68580.0/
+  PLOG/1.000E-02    2.15E+08        1.21    69920.0/                            ! fit btw. 400 and 2500 K with MAE of 0.0%, 0.1%
+  PLOG/1.000E-01    2.56E+17       -1.73    68830.0/
+  PLOG/1.000E-01    5.63E+06        1.61    66910.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+  PLOG/3.160E-01    4.14E+16       -1.45    68620.0/
+  PLOG/3.160E-01    2.14E+08        1.20    69700.0/                            ! fit btw. 400 and 2500 K with MAE of 0.0%, 0.1%
+  PLOG/1.000E+00    9.01E+17       -1.90    69020.0/
+  PLOG/1.000E+00    8.39E+06        1.56    67020.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+  PLOG/3.160E+00    7.15E+16       -1.49    68970.0/
+  PLOG/3.160E+00    2.11E+09        0.95    71310.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+  PLOG/1.000E+01    9.79E+15       -1.19    69110.0/
+  PLOG/1.000E+01    3.02E+11        0.40    75230.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.7%
+  PLOG/3.160E+01    7.18E+19       -2.42    71160.0/
+  PLOG/3.160E+01    2.73E+06        1.69    66380.0/                            ! fit btw. 400 and 2500 K with MAE of 0.3%, 1.2%
+  PLOG/1.000E+02    1.42E+19       -2.15    71810.0/
+  PLOG/1.000E+02    1.35E+06        1.78    66650.0/                            ! fit btw. 400 and 2500 K with MAE of 0.5%, 1.9%
+
+hno=honoh                               7.97E+12       -0.62    7761.0
+  PLOG/1.000E-02    4.63E+56      -16.68    21720.0/
+  PLOG/1.000E-02    6.38E-02        1.50    2743.0/                             ! fit btw. 500 and 1500 K with MAE of 3.8%, 14.5%
+  PLOG/1.000E-01    2.08E+12       -2.55    1145.0/
+  PLOG/1.000E-01    5.56E-04        2.49    -1676.0/                            ! fit btw. 400 and 1650 K with MAE of 0.2%, 1.1%
+  PLOG/3.160E-01    1.60E+02        1.16    343.4/
+  PLOG/3.160E-01    2.96E+09       -1.33    -0.5/                               ! fit btw. 400 and 1750 K with MAE of 0.1%, 0.3%
+  PLOG/1.000E+00    1.80E+23       -4.83    11720.0/
+  PLOG/1.000E+00    1.61E+04        0.81    -645.7/                             ! fit btw. 400 and 1850 K with MAE of 0.1%, 0.3%
+  PLOG/3.160E+00    2.84E+21       -3.88    10580.0/
+  PLOG/3.160E+00    8.69E+05        0.55    669.9/                              ! fit btw. 400 and 2000 K with MAE of 0.1%, 0.3%
+  PLOG/1.000E+01    1.66E+22       -3.76    11900.0/
+  PLOG/1.000E+01    3.09E+07        0.33    2124.0/                             ! fit btw. 400 and 2200 K with MAE of 0.2%, 0.7%
+  PLOG/3.160E+01    1.30E+22       -3.43    13300.0/
+  PLOG/3.160E+01    1.21E+09        0.06    3630.0/                             ! fit btw. 400 and 2450 K with MAE of 0.3%, 1.3%
+  PLOG/1.000E+02    8.27E+20       -2.85    14340.0/
+  PLOG/1.000E+02    8.08E+11       -0.66    5448.0/                             ! fit btw. 400 and 2500 K with MAE of 0.5%, 2.2%
+
+hno=honho                               1.05E+27       -4.53    3744.0
+  PLOG/1.000E-02    7.36E+51      -13.57    20530.0/
+  PLOG/1.000E-02    3.82E+18       -3.39    3663.0/                             ! fit btw. 400 and 1500 K with MAE of 0.2%, 0.4%
+  PLOG/1.000E-01    6.14E+58      -15.32    20980.0/
+  PLOG/1.000E-01    2.25E+21       -3.88    1911.0/                             ! fit btw. 400 and 1600 K with MAE of 0.2%, 0.4%
+  PLOG/3.160E-01    9.24E+62      -16.39    21970.0/
+  PLOG/3.160E-01    1.82E+23       -4.26    1705.0/                             ! fit btw. 400 and 1650 K with MAE of 0.2%, 0.4%
+  PLOG/1.000E+00    3.16E+63      -16.33    21920.0/
+  PLOG/1.000E+00    6.41E+24       -4.53    1869.0/                             ! fit btw. 400 and 1700 K with MAE of 0.2%, 0.4%
+  PLOG/3.160E+00    3.73E+60      -15.23    20700.0/
+  PLOG/3.160E+00    5.24E+25       -4.63    2158.0/                             ! fit btw. 400 and 1750 K with MAE of 0.2%, 0.3%
+  PLOG/1.000E+01    6.21E+55      -13.58    18740.0/
+  PLOG/1.000E+01    1.09E+26       -4.56    2436.0/                             ! fit btw. 400 and 1800 K with MAE of 0.1%, 0.3%
+  PLOG/3.160E+01    6.35E+50      -11.89    16790.0/
+  PLOG/3.160E+01    6.46E+25       -4.34    2640.0/                             ! fit btw. 400 and 1900 K with MAE of 0.1%, 0.3%
+  PLOG/1.000E+02    3.09E+45      -10.10    14800.0/
+  PLOG/1.000E+02    1.01E+25       -3.96    2694.0/                             ! fit btw. 400 and 1950 K with MAE of 0.1%, 0.3%
+
+hno=hno2                                3.79E+02        2.68    12210.0
+  PLOG/1.000E-02    1.11E+06        1.69    17010.0/
+  PLOG/1.000E-02    4.27E+03        2.29    12220.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/1.000E-01    1.11E+06        1.69    17010.0/
+  PLOG/1.000E-01    4.27E+03        2.29    12220.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/3.160E-01    1.11E+06        1.69    17010.0/
+  PLOG/3.160E-01    4.27E+03        2.29    12220.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/1.000E+00    1.10E+06        1.69    17000.0/
+  PLOG/1.000E+00    4.27E+03        2.29    12220.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/3.160E+00    1.10E+06        1.69    17000.0/
+  PLOG/3.160E+00    4.27E+03        2.29    12220.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.7%
+  PLOG/1.000E+01    1.11E+06        1.69    17010.0/
+  PLOG/1.000E+01    4.27E+03        2.29    12220.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/3.160E+01    1.11E+06        1.69    17010.0/
+  PLOG/3.160E+01    4.27E+03        2.29    12220.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/1.000E+02    1.11E+06        1.69    17010.0/
+  PLOG/1.000E+02    4.27E+03        2.29    12230.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.7%
+
+hno=thono                               7.37E+02        2.83    2697.0
+  PLOG/1.000E-02    9.61E+07        1.37    9915.0/
+  PLOG/1.000E-02    3.75E+03        2.56    2509.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E-01    5.69E+07        1.42    9589.0/
+  PLOG/1.000E-01    2.50E+03        2.61    2443.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.7%
+  PLOG/3.160E-01    9.69E+07        1.37    9920.0/
+  PLOG/3.160E-01    3.75E+03        2.56    2510.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E+00    9.93E+07        1.37    9932.0/
+  PLOG/1.000E+00    3.75E+03        2.56    2510.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/3.160E+00    1.08E+08        1.36    9978.0/
+  PLOG/3.160E+00    3.75E+03        2.56    2515.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E+01    1.66E+08        1.31    10210.0/
+  PLOG/1.000E+01    3.76E+03        2.56    2536.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/3.160E+01    4.46E+08        1.19    10830.0/
+  PLOG/3.160E+01    4.62E+03        2.54    2649.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.5%
+  PLOG/1.000E+02    3.20E+10        0.66    13130.0/
+  PLOG/1.000E+02    5.84E+03        2.53    2931.0/                             ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.4%
+
+hno=h2o                                 1.87E+11        0.24    22.0
+  PLOG/1.000E-02    1.02E+16       -1.32    55.5/
+  PLOG/1.000E-02    6.77E+08        0.99    2163.0/                             ! fit btw. 400 and 2500 K with MAE of 0.0%, 0.1%
+  PLOG/1.000E-01    1.47E+16       -1.37    67.3/
+  PLOG/1.000E-01    5.79E+08        1.00    1936.0/                             ! fit btw. 400 and 2500 K with MAE of 0.0%, 0.1%
+  PLOG/3.160E-01    2.19E+16       -1.43    92.5/
+  PLOG/3.160E-01    6.91E+08        0.98    1926.0/                             ! fit btw. 400 and 2500 K with MAE of 0.0%, 0.1%
+  PLOG/1.000E+00    1.19E+17       -1.69    298.7/
+  PLOG/1.000E+00    2.55E+06        1.62    -1757.0/                            ! fit btw. 400 and 2500 K with MAE of 0.2%, 0.6%
+  PLOG/3.160E+00    3.73E+16       -1.47    443.3/
+  PLOG/3.160E+00    9.31E+09        0.69    3744.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.4%
+  PLOG/1.000E+01    7.31E+15       -1.22    614.3/
+  PLOG/1.000E+01    1.50E+12        0.13    7691.0/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.7%
+  PLOG/3.160E+01    7.80E+19       -2.50    2747.0/
+  PLOG/3.160E+01    4.81E+06        1.54    -2038.0/                            ! fit btw. 400 and 2500 K with MAE of 0.3%, 1.1%
+  PLOG/1.000E+02    1.67E+19       -2.24    3421.0/
+  PLOG/1.000E+02    2.17E+06        1.64    -1781.0/                            ! fit btw. 400 and 2500 K with MAE of 0.5%, 1.9%
+
+hno=Net                                 3.04E+13       -0.39    -1694.0
+  PLOG/1.000E-02    5.60E+15       -1.24    -16.4/
+  PLOG/1.000E-02    9.21E+03        2.50    407.0/                              ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+  PLOG/1.000E-01    8.25E+15       -1.29    -3.1/
+  PLOG/1.000E-01    6.07E+03        2.55    98.8/                               ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.3%
+  PLOG/3.160E-01    2.03E+16       -1.42    45.0/
+  PLOG/3.160E-01    2.50E+03        2.65    -554.7/                             ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.3%
+  PLOG/1.000E+00    1.84E+17       -1.73    202.8/
+  PLOG/1.000E+00    7.00E+02        2.79    -1571.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.2%
+  PLOG/3.160E+00    3.34E+19       -2.43    769.0/
+  PLOG/3.160E+00    6.48E+01        3.05    -3309.0/                            ! fit btw. 400 and 2500 K with MAE of 0.1%, 0.7%
+  PLOG/1.000E+01    6.78E+22       -3.42    1908.0/
+  PLOG/1.000E+01    3.36E+00        3.38    -5124.0/                            ! fit btw. 400 and 2500 K with MAE of 0.4%, 2.1%
+  PLOG/3.160E+01    9.82E+24       -3.99    2883.0/
+  PLOG/3.160E+01    5.21E-01        3.59    -6088.0/                            ! fit btw. 400 and 2500 K with MAE of 0.9%, 5.0%
+  PLOG/1.000E+02    1.45E+24       -3.62    2860.0/
+  PLOG/1.000E+02    2.08E-03        4.26    -7177.0/                            ! fit btw. 400 and 2500 K with MAE of 2.3%, 12.0%
+
+honoh=Capture                           3.72E+08        1.11    25290.0
+  DUPLICATE
+honoh=Capture                           5.58E-15        7.42    12870.0
+  DUPLICATE
+
+honho=Capture                           2.47E+20       -1.55    34720.0
+  DUPLICATE
+honho=Capture                           6.48E+04        2.36    23220.0
+  DUPLICATE
+
+hno2=Capture                            1.82E+09        1.36    6922.0
+  DUPLICATE
+hno2=Capture                            1.45E+06        2.10    3999.0
+  DUPLICATE
+
+thono=Capture                           9.43E+07        1.47    6968.0
+  DUPLICATE
+thono=Capture                           2.98E+07        1.73    3630.0
+  DUPLICATE
+
+h2o=Capture                             2.48E+01        3.10    57920.0
+  DUPLICATE
+h2o=Capture                             5.49E-10        5.55    49080.0
+  DUPLICATE
+
+hno=Capture                             1.87E+13        0.02    265.2
+  DUPLICATE
+hno=Capture                             3.34E+11        0.44    -493.4
+  DUPLICATE
+
+
+!------------------------------------------------------------------------------!
+
+

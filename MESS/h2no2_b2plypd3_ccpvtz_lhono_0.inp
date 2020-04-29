@@ -1,0 +1,553 @@
+TemperatureList[K]              400.0 450.0 500.0 550.0 600.0 650.0 700.0 750.0 800.0 850.0 900.0 950.0 1000.0 1050.0 1100.0 1150.0 1200.0 1250.0 1300.0 1350.0 1400.0 1450.0 1500.0 1550.0 1600.0 1650.0 1700.0 1750.0 1800.0 1850.0 1900.0 1950.0 2000.0 2050.0 2100.0 2150.0 2200.0 2250.0 2300.0 2350.0 2400.0 2450.0 2500.0
+PressureList[atm]			0.01 0.1 0.316 1.0 3.16 10.0 31.6 100.0 
+EnergyStepOverTemperature		.2
+ExcessEnergyOverTemperature		30
+ModelEnergyLimit[kcal/mol]		400
+CalculationMethod			direct #low-eigenvalue #direct
+  WellCutoff				10
+  ChemicalEigenvalueMax			0.2 
+  GlobalCutoff[kcal/mol]			-45.0
+Model
+  EnergyRelaxation
+    Exponential
+      Factor[1/cm]			200
+      Power				.85
+      ExponentCutoff			15
+    End
+  CollisionFrequency
+    LennardJones
+      Epsilons[1/cm]			6.95  285.2 
+      Sigmas[angstrom]			2.55  5.182
+      Masses[amu]			4.0 59
+    End
+
+!-----------------------------------------------
+!Bimolecular R1:  Reactants H + HNO2
+!-----------------------------------------------
+
+  Bimolecular		hno2	# H+HNO2
+    Fragment	H
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/cfgoldsm/qchem/gas_phase/h/h/dft/h_b2plypd3_ccpvtz.log
+      Atom
+        Mass[amu]    1
+        ElectronicLevels[1/cm]          1
+                0       2
+      End            
+    Fragment	HNO2
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/noh/n1o2/h1n1o2/hno2/hno2_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	4
+	N	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.219352
+	O	  0.955111	  0.000000	 -0.758013
+	H	 -0.933369	  0.000000	 -0.450837
+
+        Core	RigidRotor
+          SymmetryFactor	2
+        End
+
+        Frequencies[1/cm]	6
+	 784.8	1047.3	1365.3
+	1513.7	1643.6	3225.1
+
+        ZeroEnergy[kcal/mol]	0.0
+        ElectronicLevels[1/cm]	1
+            0	1
+      End           
+    GroundEnergy[kcal/mol]			8.56
+  End
+
+!-----------------------------------------------
+!Bimolecular R3:  Reactants H + transHONO
+!-----------------------------------------------
+
+  Bimolecular		thono	# H+transHONO
+    Fragment	H
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/cfgoldsm/qchem/gas_phase/h/h/dft/h_b2plypd3_ccpvtz.log
+      Atom
+        Mass[amu]    1
+        ElectronicLevels[1/cm]          1
+                0       2
+      End            
+    Fragment	transHONO
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/noh/n1o2/h1n1o2/transhono/transhono_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	4
+	N	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.169092
+	O	  1.341417	  0.000000	 -0.513895
+	H	  1.187655	  0.000000	 -1.468646
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+        Rotor     Hindered
+          Group                  4         # atoms in rotating group excluding the atom on the axis
+          Axis                   1 2         # rotational axis
+          Symmetry               1         # 360/angle of rotation to recover the initial structure
+          Potential[kcal/mol]    4         # number of equidistant point on the potetial energy curve with respect to the rotational angle
+          0.0 10.58 0.42 10.58
+          End
+        Frequencies[1/cm]	5
+	 601.1	 819.0
+	1295.1	1731.4	3775.1
+	!torsion 592.2
+
+        ZeroEnergy[kcal/mol]	0.0
+        ElectronicLevels[1/cm]	1
+            0	1
+      End           
+    GroundEnergy[kcal/mol]		-0.31
+  End
+  
+  
+
+
+!-----------------------------------------------
+!Bimolecular P2:  NO + H2O
+!-----------------------------------------------
+
+  Bimolecular		h2o	#no + h2o
+    Fragment	NO
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/no/n1o1/no/no_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	2
+	N	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.196800
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+
+        Frequencies[1/cm]	1
+	1619.1
+        ZeroEnergy[kcal/mol]	0.0
+        ElectronicLevels[1/cm]	1
+            0	2
+      End       
+    Fragment	H2O
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/oh/o1/h2o1/h2o/h2o_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	3
+	O	  0.000000	  0.000000	  0.000000
+	H	  0.000000	  0.000000	  0.959466
+	H	  0.930077	  0.000000	 -0.235652
+
+        Core	RigidRotor
+          SymmetryFactor	2
+        End
+
+        Frequencies[1/cm]	3
+	1651.4	3829.8	3937.6
+
+        ZeroEnergy[kcal/mol]	0.0
+        ElectronicLevels[1/cm]	1
+            0	1
+      End           
+    GroundEnergy[kcal/mol]			    -68.25
+  End
+
+!-----------------------------------------------
+!Bimolecular P3:  OH + HNO
+!-----------------------------------------------
+
+  Bimolecular		hno	#oh + hno
+    Fragment	OH
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/oh/o1/h1o1/oh/oh_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	2
+	H	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  0.970773
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+
+        Frequencies[1/cm]	1
+	3750.4
+        ZeroEnergy[kcal/mol]	0.0
+        ElectronicLevels[1/cm]	1
+            0	2
+      End       
+    Fragment	HNO
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/noh/n1o1/h1n1o1/hno/hno_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	3
+	H	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.836750
+	N	  0.659602	  0.000000	  0.824712
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+
+        Frequencies[1/cm]	3
+	1549.1	1609.0	2928.4
+
+        ZeroEnergy[kcal/mol]	0.0
+        ElectronicLevels[1/cm]	1
+            0	1
+      End           
+    GroundEnergy[kcal/mol]			      0.27
+  End
+
+
+!-----------------------------------------------
+!Well 1: honoh
+!-----------------------------------------------
+  Well     honoh	# HONOH
+   Species
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/noh/n1o2/h2n1o2/honoh/honoh_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	5
+	N	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.393265
+	O	  1.314078	  0.000000	 -0.340082
+	H	 -0.938497	 -0.000028	  1.614712
+	H	  1.817754	  0.000000	  0.490030
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+        Rotor     Hindered
+          Group                  5 		# atoms in rotating group excluding the atom on the axis
+          Axis                   1 3 		# rotational axis
+          Symmetry               1 		# 360/angle of rotation to recover the initial structure
+          Potential[kcal/mol]    36 		# number of equidistant point on the potetial energy curve with respect to the rotational angle
+ 0.00  0.08  0.32  0.75  1.37  2.13  2.95  3.69  4.24  4.50  4.44  4.07  3.45  2.69  1.88  1.14  0.56  0.18  0.05  0.18  0.56  1.14  1.88  2.69  3.45  4.07  4.44  4.50  4.24  3.69  2.95  2.13  1.37  0.75  0.32  0.08
+          End
+        Rotor     Hindered
+          Group                  4 		# atoms in rotating group excluding the atom on the axis
+          Axis                   1 2 		# rotational axis
+          Symmetry               1 		# 360/angle of rotation to recover the initial structure
+          Potential[kcal/mol]    36 		# number of equidistant point on the potetial energy curve with respect to the rotational angle
+0	0.11	0.42	0.93	1.59	2.36	3.16	3.94	4.61	5.15	5.53	5.76	5.87	5.92	5.93	5.92	5.93	5.93	5.93	5.93	5.93	5.92	5.93	5.92	5.87	5.76	5.53	5.15	4.61	3.94	3.16	2.36	1.59	0.93	0.42	0.11
+          End
+
+        Frequencies[1/cm]	7
+	 575.7
+	 975.3	1058.2	1336.3
+	1449.7	3693.8	3812.5
+
+        !Torsional frequencies:	 221.4	 361.4
+
+        ZeroEnergy[kcal/mol]	-34.30
+        ElectronicLevels[1/cm]	1
+            0	2
+      End   
+End   
+!-----------------------------------------------
+!Well 2: honho
+!-----------------------------------------------
+  Well     honho	# HONHO
+   Species
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/noh/n1o2/h2n1o2/honho/honho_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	5
+	N	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.242823
+	O	  1.246970	  0.000000	 -0.684257
+	H	 -0.604321	  0.645919	 -0.510082
+	H	  1.844105	 -0.334291	  0.001465
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+        Rotor     Hindered
+          Group                  5 		# atoms in rotating group excluding the atom on the axis
+          Axis                   1 3 		# rotational axis
+          Symmetry               1 		# 360/angle of rotation to recover the initial structure
+          Potential[kcal/mol]    36 		# number of equidistant point on the potetial energy curve with respect to the rotational angle
+ 0.00  0.01  0.08  0.20  0.34  0.49  0.65  0.84  1.06  1.33  1.65  2.03  2.48  2.98  3.54  4.16  4.79  5.41  5.93  6.27  6.36  6.16  5.69  5.05  4.34  3.63  3.00  2.44  1.98  1.58  1.24  0.94  0.66  0.41  0.20  0.06
+          End
+
+        Frequencies[1/cm]	8
+	 544.7	 785.8
+	 956.3	1298.7	1415.2
+	1519.8	3406.8	3749.3
+
+        !Torsional frequencies:	 279.4
+
+        ZeroEnergy[kcal/mol]	-31.94
+        ElectronicLevels[1/cm]	1
+            0	2
+      End   
+End   
+
+
+
+!-----------------------------------------------
+!TS abstraction: h+hno2 <--> honho
+!-----------------------------------------------
+
+  Barrier	B4	hno2	honho	# 
+
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/noh/n1o2/h2n1o2/ts/ts_h_hno2_to_honho/ts_h_hno2_to_honho_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	5
+	N	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.211134
+	O	  0.972148	  0.000000	 -0.753057
+	H	 -0.921040	  0.065743	 -0.468641
+	H	  1.786284	  1.415784	 -0.743167
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+
+        Frequencies[1/cm]	8
+	 220.2	 518.6	 793.0
+	1038.6	1355.2	1501.6
+	1619.2	3235.5
+        !Imaginary mode:  -1352.8
+
+        ZeroEnergy[kcal/mol]	16.16
+        ElectronicLevels[1/cm]	1
+            0	2
+        Tunneling	Eckart
+          ImaginaryFrequency[1/cm]  1352.8
+          WellDepth[kcal/mol]	7.60
+          WellDepth[kcal/mol]	48.10
+        End
+      End
+
+
+ 
+  
+!-----------------------------------------------
+!TS abstraction: h+transhono <--> honho
+!-----------------------------------------------
+
+  Barrier	B6	thono	    honho	# 
+          ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/noh/n1o2/h2n1o2/ts/ts_h_transhono_to_honho/ts_h_transhono_to_honho_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	5
+	N	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.170112
+	O	  1.329185	  0.000000	 -0.530061
+	H	 -0.832233	  1.361923	 -0.848336
+	H	  1.168151	  0.010929	 -1.484361
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+        Rotor     Hindered
+          Group                  5         # atoms in rotating group excluding the atom on the axis
+          Axis                   1 3         # rotational axis
+          Symmetry               1         # 360/angle of rotation to recover the initial structure
+          Potential[kcal/mol]    4         # number of equidistant point on the potetial energy curve with respect to the rotational angle
+          0.0 11.01 0.28 10.78
+          End
+        Frequencies[1/cm]	7
+	 395.0	 573.3
+	 610.1	 811.9	1306.1
+	1755.1	3763.8
+	!Torsion 412.1
+        !Imaginary mode:  -893.9
+
+        ZeroEnergy[kcal/mol]	5.28
+        ElectronicLevels[1/cm]	1
+            0	2
+        Tunneling	Eckart
+          ImaginaryFrequency[1/cm]   893.9
+          WellDepth[kcal/mol]	5.59
+          WellDepth[kcal/mol]	37.22
+        End
+      End
+  
+  
+  
+!-----------------------------------------------
+!TS abstraction: h+transhono <--> honoh
+!-----------------------------------------------
+
+  Barrier	B8	thono	    honoh	# 
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/noh/n1o2/h2n1o2/ts/ts_h_transhono_to_honoh/ts_h_transhono_to_honoh_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	5
+	N	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.408546
+	O	  1.118784	  0.000000	 -0.408194
+	H	 -0.943287	  0.043654	  1.617571
+	H	  1.995975	  1.207391	  0.092788
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+        Rotor     Hindered
+          Group                  4         # atoms in rotating group excluding the atom on the axis
+          Axis                   1 2         # rotational axis
+          Symmetry               1         # 360/angle of rotation to recover the initial structure
+          Potential[kcal/mol]    36         # number of equidistant point on the potetial energy curve with respect to the rotational angle
+0.00  0.19  0.99  2.31  4.01  5.90  7.75  9.35  10.50  11.06  10.97  10.22  8.91  7.20  5.29  3.43  1.85  0.80  0.44  0.83  1.89  3.40  5.05  6.75  8.46  9.95  10.98  11.39  11.10  10.15  8.67  6.84  4.88  3.04  1.50  0.45
+          End
+        Frequencies[1/cm]	7
+	 305.8	 612.6
+	 703.5	 866.2	1312.2
+	1678.1	3774.0
+	!Torsion 545.5
+        !Imaginary mode:  -1546.9
+
+        ZeroEnergy[kcal/mol]	9.20
+        ElectronicLevels[1/cm]	1
+            0	2
+        Tunneling	Eckart
+          ImaginaryFrequency[1/cm]  1546.9
+          WellDepth[kcal/mol]	9.52
+          WellDepth[kcal/mol]	43.50
+        End
+      End  
+  
+!-----------------------------------------------
+!TS abstraction: honho <--> honoh
+!-----------------------------------------------
+
+  Barrier	B9	honho	    honoh	# 
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/noh/n1o2/h2n1o2/ts/ts_honho_to_honoh/ts_honho_to_honoh_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	5
+	N	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.387734
+	O	  1.287875	  0.000000	 -0.474444
+	H	 -0.445055	  0.886973	  0.641987
+	H	  1.834255	 -0.085675	  0.327096
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+        Rotor     Hindered
+          Group                  5         # atoms in rotating group excluding the atom on the axis
+          Axis                   1 3         # rotational axis
+          Symmetry               1         # 360/angle of rotation to recover the initial structure
+          Potential[kcal/mol]    36         # number of equidistant point on the potetial energy curve with respect to the rotational angle
+ 0.00  0.17  0.58  1.19  1.92  2.69  3.40  3.97  4.31  4.38  4.15  3.67  3.01  2.27  1.57  1.01  0.68  0.64  0.90  1.45  2.25  3.22  4.26  5.24  6.06  6.60  6.79  6.61  6.08  5.26  4.25  3.16  2.11  1.21  0.52  0.11  0.00
+          End
+        Frequencies[1/cm]	7
+	 549.1	 749.5
+	 989.0	1018.8	1413.1
+	2579.7	3656.2
+	!torsion 419.9        
+	!Imaginary mode:  -1959.2
+
+        ZeroEnergy[kcal/mol]	9.58
+        ElectronicLevels[1/cm]	1
+            0	2
+        Tunneling	Eckart
+          ImaginaryFrequency[1/cm]  1959.2
+          WellDepth[kcal/mol]	41.52
+          WellDepth[kcal/mol]	43.88
+        End
+      End  
+  
+!-----------------------------------------------
+!TS abstraction: honho <--> oh+hno
+!-----------------------------------------------
+
+  Barrier	B10 	honho	  hno	# 
+   RRHO
+      Stoichiometry H2N1O2
+      Core      PhaseSpaceTheory
+        FragmentGeometry[angstrom]	3
+	H	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.836750
+	N	  0.659602	  0.000000	  0.824712
+        FragmentGeometry[angstrom]	2
+	H	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  0.970773
+        SymmetryFactor                  1.
+        PotentialPrefactor[au]          2.4E-2
+        PotentialPowerExponent          6.
+      End
+        Frequencies[1/cm]	4
+	3750.4
+	1549.1	1609.0	2928.4
+      ElectronicLevels[1/cm]                    1
+                0       2
+      ZeroEnergy[kcal/mol]                      0.27 
+    End
+  
+!-----------------------------------------------
+!TS abstraction: honho <--> no+h2o
+!-----------------------------------------------
+
+  Barrier	B11 	honho	  h2o	# 
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/noh/n1o2/h2n1o2/ts/ts_honho_to_no_h2o/ts_honho_to_no_h2o_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	5
+	N	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.180724
+	O	  1.581413	  0.000000	 -0.776715
+	H	  0.361157	  0.842411	 -0.607044
+	H	  2.189102	  0.148193	 -0.034883
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+
+        Frequencies[1/cm]	8
+	 391.8	 540.1	 934.2
+	1148.6	1311.5	1784.6
+	2670.8	3732.1
+        !Imaginary mode:  -1512.4
+
+        ZeroEnergy[kcal/mol]	-4.17
+        ElectronicLevels[1/cm]	1
+            0	2
+        Tunneling	Eckart
+          ImaginaryFrequency[1/cm]  1512.4
+          WellDepth[kcal/mol]	27.77
+          WellDepth[kcal/mol]	64.08
+        End
+      End
+        
+!-----------------------------------------------
+!TS abstraction: honoh <--> no+h2o
+!-----------------------------------------------
+
+  Barrier	B12 	honoh	  h2o	# 
+      ! Current data taken from:
+      !/gpfs/data/cfgoldsm/mfuller/qchem/noh/n1o2/h2n1o2/ts/ts_honoh_to_no_h2o/ts_honoh_to_no_h2o_b2plypd3_ccpvtz.log
+      RRHO
+        Geometry[angstrom]	5
+	N	  0.000000	  0.000000	  0.000000
+	O	  0.000000	  0.000000	  1.650975
+	O	  1.282583	  0.000000	 -0.052578
+	H	 -0.335737	  0.873872	  1.903548
+	H	  1.160088	  0.051103	  1.163674
+
+        Core	RigidRotor
+          SymmetryFactor	1
+        End
+
+        Frequencies[1/cm]	8
+	 507.2	 622.1	 788.0
+	 942.7	1263.8	1318.9
+	2000.7	3748.4
+        !Imaginary mode:  -1899.2
+
+        ZeroEnergy[kcal/mol]	-5.72
+        ElectronicLevels[1/cm]	1
+            0	2
+        Tunneling	Eckart
+          ImaginaryFrequency[1/cm]  1899.2
+          WellDepth[kcal/mol]	28.58
+          WellDepth[kcal/mol]	62.53
+        End
+      End
+      
+End
