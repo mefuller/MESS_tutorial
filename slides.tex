@@ -268,6 +268,13 @@
   }
 \end{frame}
 
+\begin{frame}{Generating \textsc{MESS} Input Blocks}
+  \begin{itemize}
+   \item While you could, it is tedious and error-prone to write input files manually
+   \item The utility program \textsc{writemess} reads a \textsc{Gaussian} output (log) file and writes a conformer template
+   \item Optionally, hindered rotors (\textsc{Gaussian} log files) and energy from a single-point calculation (\textsc{ORCA}, currently) may also be added and written concurrently
+  \end{itemize}
+\end{frame}
 
 \section{Getting Results}
 \begin{frame}{Job Submission and Output}

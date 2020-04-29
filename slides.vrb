@@ -1,0 +1,5 @@
+\frametitle{Barrier Input}
+\vspace{-0.8cm}
+  \tiny{
+  \lstinputlisting[linerange={288-323}]{MESS/h2no2_b2plypd3_ccpvtz_lhono_0.inp}
+  }
