@@ -1,0 +1,1 @@
+/home/fuller/bin/pdfpng.sh
