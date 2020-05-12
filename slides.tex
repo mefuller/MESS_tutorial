@@ -7,6 +7,8 @@
 %% with modifications by Gerrit Toehgiono, Mentoring Informatik, 2016-2018
 %% to match the "current old" RWTH template
 %%
+%% modified for internal use by Mark E. Fuller, RWTH - PCFC, 2020
+%%
 %% The templates are derived from the beamer documentation and the provided templates,
 %% hence, the same licence applies:
 %%
@@ -32,6 +34,8 @@
 %%  - copyright of slides?
 %%  - count slides with same subsection (needs probably overloading \subsection) and print: 1/N
 %%    (needs to count the number of frames in each subsection)
+%%
+%% Version 1.1a   31.03.2020    Fork by M.E. FULLER (RWTH - PCFC)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Select input file encoding:
@@ -42,8 +46,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Select language
 %%
-\usepackage[ngerman]{babel}        % Deutsch, neue Rechtschreibung
-%\usepackage[english]{babel}       % English
+%\usepackage[ngerman]{babel}        % Deutsch, neue Rechtschreibung
+\usepackage[english]{babel}       % English
 
 \usetheme{rwth}
 \usepackage[T1]{fontenc}           % Font encoding (don't change!)
@@ -138,8 +142,8 @@
 
 %footnote citations - replace \cite with \footcite or \footfullcite
 \usepackage[backend=bibtex, style=authoryear-comp]{biblatex} %, style=authoryear-comp
-\addbibresource{/home/fuller/Documents/TeX/bibfiles/references}
-\addbibresource{/home/fuller/Documents/TeX/bibfiles/ownpubspres}
+\addbibresource{references}
+\addbibresource{ownpubspres}
 
 %shrink citations
 \setbeamerfont{footnote}{size=\tiny}
@@ -210,6 +214,7 @@
 %  \columnbreak
   \begin{figure}
     \centering
+    %tex file to generate this figure in figures folder
     \includegraphics[width=0.6\linewidth]{figures/PES_H_HONO_1_lumpHONO.pdf}
   \end{figure}
 %\end{multicols}

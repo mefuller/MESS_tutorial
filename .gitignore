@@ -1,0 +1,11 @@
+*.aux
+*.synctex.gz
+*.vrb
+*-blx.bib
+*.snm
+*.nav
+*.run.xml
+*.bbl
+*.blg
+*.log
+*.toc
