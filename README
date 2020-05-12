@@ -1,3 +1,6 @@
 This folder contains the original slide deck for the MESS tutorial given on 12 May 2020.
 Additionally, a stripped version was created without beamer formatting as an article.
 The article is used as input to conversion with pandoc to generate (github) markdown.
+
+Automatic conversion now enabled (but not extensively tested) for Beamer to MD:
+run $ WriteMDfromBeamer.sh beamer.tex out.md
