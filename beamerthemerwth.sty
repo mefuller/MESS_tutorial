@@ -672,8 +672,8 @@
 
 \AtBeginDocument
 {
-  \iflanguage{ngerman}{\pdfbookmark[2]{Titelseite}{title}}{}
-  \iflanguage{english}{\pdfbookmark[2]{Title page}{title}}{}
+  %\iflanguage{ngerman}{\pdfbookmark[2]{Titelseite}{title}}{}
+  \iflanguage{english}{\pdfbookmark[2]{Title page}{title}}{\pdfbookmark[2]{Titelseite}{title}}
 
   \frame[plain,t]{\titlepage}
 }
